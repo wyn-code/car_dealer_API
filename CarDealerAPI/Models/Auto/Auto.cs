@@ -20,7 +20,12 @@ namespace CarDealerAPI.Models.Auto
         public string Id_Local { get; set; } = null!;
 
         [ForeignKey("Id_Tipo_Auto")]
-        public required List<TipoDeAuto> Tipo_Autos { get; set; } 
+        public required List<TipoDeAuto> Tipo_Autos { get; set; }
+
+        [ForeignKey("EstadoId")]
+        public Estado.Estado Estado { get; set; } = null!;
+        public int EstadoId { get; set; }
+
         public int Id_Tipo_Auto { get; set; }  
         
         public DateTime fecha_creacion {  get; set; }

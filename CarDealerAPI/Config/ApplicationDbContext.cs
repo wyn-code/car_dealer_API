@@ -1,5 +1,6 @@
 ﻿using CarDealerAPI.Models.Auto;
 using CarDealerAPI.Models.Tipo_Auto;
+using CarDealerAPI.Models.Estado;
 using Microsoft.EntityFrameworkCore;
 
 namespace CarDealerAPI.Config
@@ -8,6 +9,7 @@ namespace CarDealerAPI.Config
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
         public DbSet<Auto> Autos { get; set; } = null!;
+        public DbSet<Estado> Estados { get; set; } = null!;
         public DbSet<TipoDeAuto> TiposDeAuto { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
