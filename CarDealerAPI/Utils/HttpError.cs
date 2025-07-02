@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Car_DealerShip_Proyect.Utils
+namespace CarDealerAPI.Utils
 {
     public class HttpError : Exception
     {

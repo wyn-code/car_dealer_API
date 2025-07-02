@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Car_DealerShip_Proyect.Models.Tipo_Auto.Dto
+namespace CarDealerAPI.Models.Tipo_Auto.Dto
 {
     public class CreateTipoAutoDTO
     {

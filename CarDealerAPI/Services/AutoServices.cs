@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using Car_DealerShip_Proyect.Config;
-using Car_DealerShip_Proyect.Models.Auto;
-using Car_DealerShip_Proyect.Models.Auto.Dto;
-using Car_DealerShip_Proyect.Models.Tipo_Auto;
-using Car_DealerShip_Proyect.Utils;
+using CarDealerAPI.Config;
+using CarDealerAPI.Models.Auto;
+using CarDealerAPI.Models.Auto.Dto;
+using CarDealerAPI.Models.Tipo_Auto;
+using CarDealerAPI.Utils;
 using Microsoft.EntityFrameworkCore;
 using System.Net;
 
-namespace Car_DealerShip_Proyect.Services
+namespace CarDealerAPI.Services
 {
     public class AutoServices
     {
@@ -41,14 +41,14 @@ namespace Car_DealerShip_Proyect.Services
             return auto;
         }
 
-        public Auto CreateOne(CreateAutoDTO auto)
-        {
-            var a = _mapper.Map<Auto>(auto);
+        //public Auto CreateOne(CreateAutoDTO auto)
+        //{
+        //    var a = _mapper.Map<Auto>(auto);
 
-            _db.auto.Add(a);
-            _db.SaveChanges();
-            return a;
-        }
+        //    _db.auto.Add(a);
+        //    _db.SaveChanges();
+        //    return a;
+        //}
 
         public async Task DeleteOneById(int id)
         {
