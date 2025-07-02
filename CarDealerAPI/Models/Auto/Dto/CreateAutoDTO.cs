@@ -1,12 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Car_DealerShip_Proyect.Models.Auto.Dto
+namespace CarDealerAPI.Models.Auto.Dto
 {
     public class CreateAutoDTO
     {
         [Required(ErrorMessage = "La marca del auto es obligatoria")]
         [StringLength(100, ErrorMessage = "La marca no puede exceder los 100 caracteres.")]
-        public string Marca { get; set; }
+        public string Marca { get; set; } = null!;
 
         [Required(ErrorMessage = "El precio del auto es obligatorio")]
         [Range(0.01, double.MaxValue, ErrorMessage = "El precio del auto debe ser mayor a 0")]
@@ -16,7 +16,7 @@ namespace Car_DealerShip_Proyect.Models.Auto.Dto
         public bool Disponible { get; set; }
 
         [Required(ErrorMessage = "El motor es un campo requerido.")]
-        public string Motor { get; set; }
+        public string Motor { get; set; } = null!;
 
         [Required(ErrorMessage = "El año del modelo es requerido.")]
         [Range(1800, 2023, ErrorMessage = "El año del modelo debe ser menor o igual al año actual.")]

@@ -1,10 +1,10 @@
-﻿using Car_DealerShip_Proyect.Services;
-using Car_DealerShip_Proyect.Utils;
+﻿using CarDealerAPI.Services;
+using CarDealerAPI.Utils;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 
 
-namespace Car_DealerShip_Proyect.Controllers
+namespace CarDealerAPI.Controllers
 {
     [ApiController]
     [Microsoft.AspNetCore.Mvc.Route("api/Car-DealerShip-Proyect")]

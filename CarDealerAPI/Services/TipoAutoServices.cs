@@ -1,10 +1,10 @@
-﻿using Car_DealerShip_Proyect.Config;
-using Car_DealerShip_Proyect.Models.Tipo_Auto;
-using Car_DealerShip_Proyect.Utils;
+﻿using CarDealerAPI.Config;
+using CarDealerAPI.Models.Tipo_Auto;
+using CarDealerAPI.Utils;
 using Microsoft.EntityFrameworkCore;
 using System.Net;
 
-namespace Car_DealerShip_Proyect.Services
+namespace CarDealerAPI.Services
 {
     public class TipoAutoServices
     {
