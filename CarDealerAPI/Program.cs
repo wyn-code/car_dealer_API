@@ -16,9 +16,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
-// Para mostrar los errores de validaci�n de manera personalizada
+// Para mostrar los errores de validación de manera personalizada
 
-// Para mostrar los errores de validaci�n de manera personalizada
+// Para mostrar los errores de validaciï¿½n de manera personalizada
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
@@ -44,6 +44,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 // Services
 builder.Services.AddScoped<AutoServices>();
+builder.Services.AddScoped<TipoAutoServices>();
 
 // Mapper
 // builder.Services.AddAutoMapper(typeof(Mapping)); no se porque no anda con esta linea
