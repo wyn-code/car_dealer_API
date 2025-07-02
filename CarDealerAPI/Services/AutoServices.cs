@@ -2,7 +2,6 @@
 using CarDealerAPI.Config;
 using CarDealerAPI.Models.Auto;
 using CarDealerAPI.Models.Auto.Dto;
-using CarDealerAPI.Models.Tipo_Auto;
 using CarDealerAPI.Utils;
 using Microsoft.EntityFrameworkCore;
 using System.Net;
@@ -15,6 +14,8 @@ namespace CarDealerAPI.Services
         private readonly ApplicationDbContext _db;
 
         private readonly IMapper _mapper;
+
+        private readonly EstadoServices _estadoServices;
 
         private readonly TipoAutoServices _tipoAutos;
             
@@ -41,14 +42,17 @@ namespace CarDealerAPI.Services
             return auto;
         }
 
-        //public Auto CreateOne(CreateAutoDTO auto)
-        //{
-        //    var a = _mapper.Map<Auto>(auto);
+        public async Task<Auto> CreateOne(CreateAutoDTO auto)
+        {
 
-        //    _db.auto.Add(a);
-        //    _db.SaveChanges();
-        //    return a;
-        //}
+            var a = _mapper.Map<Auto>(auto);
+            var estado = await _estadoServices.GetOneByName("Pendiente");
+            a.Estado = estado;
+
+            await _db.Autos.AddAsync(a);
+            await _db.SaveChangesAsync();
+            return a;
+        }
 
         public async Task DeleteOneById(int id)
         {
