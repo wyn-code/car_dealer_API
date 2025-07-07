@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-﻿using Car_DealerShip_Proyect.Models.Auto;
-using Car_DealerShip_Proyect.Services;
-using Car_DealerShip_Proyect.Utils;
-=======
-﻿using CarDealerAPI.Services;
+using CarDealerAPI.Models.Auto;
+using CarDealerAPI.Services;
 using CarDealerAPI.Utils;
->>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
@@ -24,10 +19,10 @@ namespace CarDealerAPI.Controllers
         }
 
         [HttpGet]
-        public List<Auto> GetAutos()
-        {
-            return _autoServices.GetAll();
-        }
+        //public List<Auto> GetAutos()
+        //{
+        //    return _autoServices.GetAll();
+        //}
 
         [HttpDelete("{Id_Autos}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
