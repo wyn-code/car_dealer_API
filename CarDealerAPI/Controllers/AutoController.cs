@@ -1,12 +1,17 @@
+<<<<<<< HEAD
 ﻿using Car_DealerShip_Proyect.Models.Auto;
 using Car_DealerShip_Proyect.Services;
 using Car_DealerShip_Proyect.Utils;
+=======
+﻿using CarDealerAPI.Services;
+using CarDealerAPI.Utils;
+>>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 
 
-namespace Car_DealerShip_Proyect.Controllers
+namespace CarDealerAPI.Controllers
 {
     [ApiController]
     [Route("api/cars")]

@@ -1,19 +1,24 @@
 ﻿using AutoMapper;
-using Car_DealerShip_Proyect.Config;
-using Car_DealerShip_Proyect.Models.Auto;
-using Car_DealerShip_Proyect.Models.Auto.Dto;
-using Car_DealerShip_Proyect.Models.Tipo_Auto;
-using Car_DealerShip_Proyect.Utils;
+using CarDealerAPI.Config;
+using CarDealerAPI.Models.Auto;
+using CarDealerAPI.Models.Auto.Dto;
+using CarDealerAPI.Utils;
 using Microsoft.EntityFrameworkCore;
 using System.Net;
 
-namespace Car_DealerShip_Proyect.Services
+namespace CarDealerAPI.Services
 {
     public class AutoServices
     {
        
         private readonly ApplicationDbContext _db;
         private readonly IMapper _mapper;
+<<<<<<< HEAD
+=======
+
+        private readonly EstadoServices _estadoServices;
+
+>>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
         private readonly TipoAutoServices _tipoAutos;
             
         public AutoServices(IMapper mapper, ApplicationDbContext db,TipoAutoServices tipoAutos)
@@ -39,14 +44,21 @@ namespace Car_DealerShip_Proyect.Services
             return auto;
         }
 
+<<<<<<< HEAD
         
 
         public Auto CreateOne(CreateAutoDTO auto)
+=======
+        public async Task<Auto> CreateOne(CreateAutoDTO auto)
+>>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
         {
-            var a = _mapper.Map<Auto>(auto);
 
-            _db.auto.Add(a);
-            _db.SaveChanges();
+            var a = _mapper.Map<Auto>(auto);
+            var estado = await _estadoServices.GetOneByName("Pendiente");
+            a.Estado = estado;
+
+            await _db.Autos.AddAsync(a);
+            await _db.SaveChangesAsync();
             return a;
         }
 
