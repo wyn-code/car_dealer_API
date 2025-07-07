@@ -20,8 +20,6 @@
           }
         }
       },
-<<<<<<< HEAD
-=======
       "Azure.Core/1.38.0": {
         "type": "package",
         "dependencies": {
@@ -137,7 +135,6 @@
           }
         }
       },
->>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
       "Microsoft.EntityFrameworkCore/9.0.6": {
         "type": "package",
         "dependencies": {
@@ -176,8 +173,6 @@
       "Microsoft.EntityFrameworkCore.Analyzers/9.0.6": {
         "type": "package"
       },
-<<<<<<< HEAD
-=======
       "Microsoft.EntityFrameworkCore.Relational/9.0.6": {
         "type": "package",
         "dependencies": {
@@ -219,7 +214,6 @@
           }
         }
       },
->>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
         "build": {
@@ -273,8 +267,6 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-<<<<<<< HEAD
-=======
       "Microsoft.Extensions.Configuration.Abstractions/9.0.6": {
         "type": "package",
         "dependencies": {
@@ -294,7 +286,6 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
->>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
       "Microsoft.Extensions.DependencyInjection/9.0.6": {
         "type": "package",
         "dependencies": {
@@ -407,8 +398,6 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-<<<<<<< HEAD
-=======
       "Microsoft.Identity.Client/4.61.3": {
         "type": "package",
         "dependencies": {
@@ -443,7 +432,6 @@
           }
         }
       },
->>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
       "Microsoft.IdentityModel.Abstractions/8.0.1": {
         "type": "package",
         "compile": {
@@ -489,8 +477,6 @@
           }
         }
       },
-<<<<<<< HEAD
-=======
       "Microsoft.IdentityModel.Protocols/6.35.0": {
         "type": "package",
         "dependencies": {
@@ -525,7 +511,6 @@
           }
         }
       },
->>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
       "Microsoft.IdentityModel.Tokens/8.0.1": {
         "type": "package",
         "dependencies": {
@@ -653,8 +638,6 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-<<<<<<< HEAD
-=======
       "System.ClientModel/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -692,7 +675,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
->>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
       "System.Diagnostics.DiagnosticSource/9.0.6": {
         "type": "package",
         "compile": {
@@ -708,8 +690,6 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
-<<<<<<< HEAD
-=======
       },
       "System.Drawing.Common/6.0.0": {
         "type": "package",
@@ -1071,7 +1051,6 @@
             "rid": "win"
           }
         }
->>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
       }
     }
   },
@@ -1096,8 +1075,6 @@
         "lib/netstandard2.0/AutoMapper.xml"
       ]
     },
-<<<<<<< HEAD
-=======
     "Azure.Core/1.38.0": {
       "sha512": "IuEgCoVA0ef7E4pQtpC3+TkPbzaoQfa77HlfJDmfuaJUCVJmn7fT0izamZiryW5sYUFKizsftIxMkXKbgIcPMQ==",
       "type": "package",
@@ -1238,7 +1215,6 @@
         "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll"
       ]
     },
->>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
     "Microsoft.EntityFrameworkCore/9.0.6": {
       "sha512": "r5hzM6Bhw4X3z28l5vmsaCPjk9VsQP4zaaY01THh1SAYjgTMVadYIvpNkCfmrv/Klks6aIf2A9eY7cpGZab/hg==",
       "type": "package",
@@ -1284,8 +1260,6 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-<<<<<<< HEAD
-=======
     "Microsoft.EntityFrameworkCore.Relational/9.0.6": {
       "sha512": "Ht6OT17sYnO31Dx+hX72YHrc5kZt53g5napaw0FpyIekXCvb+gUVvufEG55Fa7taFm8ccy0Vzs+JVNR9NL0JlA==",
       "type": "package",
@@ -1316,7 +1290,6 @@
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
->>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "sha512": "Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
       "type": "package",
@@ -1604,8 +1577,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-<<<<<<< HEAD
-=======
     "Microsoft.Extensions.Configuration.Abstractions/9.0.6": {
       "sha512": "3GgMIi2jP8g1fBW93Z9b9Unamc0SIsgyhiCmC91gq4loTixK9vQMuxxUsfJ1kRGwn+/FqLKwOHqmn0oYWn3Fvw==",
       "type": "package",
@@ -1634,7 +1605,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
->>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
     "Microsoft.Extensions.DependencyInjection/9.0.6": {
       "sha512": "vS65HMo5RS10DD543fknsyVDxihMcVxVn3/hNaILgBxWYnOLxWIeCIO9X0QFuCvPRNjClvXe9Aj8KaQNx7vFkQ==",
       "type": "package",
@@ -1869,8 +1839,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-<<<<<<< HEAD
-=======
     "Microsoft.Identity.Client/4.61.3": {
       "sha512": "naJo/Qm35Caaoxp5utcw+R8eU8ZtLz2ALh8S+gkekOYQ1oazfCQMWVT4NJ/FnHzdIJlm8dMz0oMpMGCabx5odA==",
       "type": "package",
@@ -1908,7 +1876,6 @@
         "microsoft.identity.client.extensions.msal.nuspec"
       ]
     },
->>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
     "Microsoft.IdentityModel.Abstractions/8.0.1": {
       "sha512": "OtlIWcyX01olfdevPKZdIPfBEvbcioDyBiE/Z2lHsopsMD7twcKtlN9kMevHmI5IIPhFpfwCIiR6qHQz1WHUIw==",
       "type": "package",
@@ -1978,8 +1945,6 @@
         "microsoft.identitymodel.logging.nuspec"
       ]
     },
-<<<<<<< HEAD
-=======
     "Microsoft.IdentityModel.Protocols/6.35.0": {
       "sha512": "BPQhlDzdFvv1PzaUxNSk+VEPwezlDEVADIKmyxubw7IiELK18uJ06RQ9QKKkds30XI+gDu9n8j24XQ8w7fjWcg==",
       "type": "package",
@@ -2026,7 +1991,6 @@
         "microsoft.identitymodel.protocols.openidconnect.nuspec"
       ]
     },
->>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
     "Microsoft.IdentityModel.Tokens/8.0.1": {
       "sha512": "kDimB6Dkd3nkW2oZPDkMkVHfQt3IDqO5gL0oa8WVy3OP4uE8Ij+8TXnqg9TOd9ufjsY3IDiGz7pCUbnfL18tjg==",
       "type": "package",
@@ -2195,8 +2159,6 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-<<<<<<< HEAD
-=======
     "System.ClientModel/1.0.0": {
       "sha512": "I3CVkvxeqFYjIVEP59DnjbeoGNfo/+SZrCLpRz2v/g0gpCHaEMPtWSY0s9k/7jR1rAsLNg2z2u1JRB76tPjnIw==",
       "type": "package",
@@ -2240,7 +2202,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
->>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
     "System.Diagnostics.DiagnosticSource/9.0.6": {
       "sha512": "nikkwAKqpwWUvV5J8S9fnOPYg8k75Lf9fAI4bd6pyhyqNma0Py9kt+zcqXbe4TjJ4sTPcdYpPg81shYTrXnUZQ==",
       "type": "package",
@@ -2267,8 +2228,6 @@
         "system.diagnostics.diagnosticsource.nuspec",
         "useSharedDesignerContext.txt"
       ]
-<<<<<<< HEAD
-=======
     },
     "System.Drawing.Common/6.0.0": {
       "sha512": "NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
@@ -2968,34 +2927,30 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
->>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper >= 15.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.6",
-<<<<<<< HEAD
-=======
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.6",
->>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\bruno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.csproj",
+      "projectUniqueName": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\CarDealerAPI\\CarDealerAPI\\CarDealerAPI.csproj",
       "projectName": "CarDealerAPI",
-      "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\car_dealer_API\\CarDealerAPI\\obj\\",
+      "projectPath": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\CarDealerAPI\\CarDealerAPI\\CarDealerAPI.csproj",
+      "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\CarDealerAPI\\CarDealerAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3003,6 +2958,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3034,13 +2990,10 @@
             "target": "Package",
             "version": "[9.0.6, )"
           },
-<<<<<<< HEAD
-=======
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[9.0.6, )"
           },
->>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.4.0, )"
@@ -3065,7 +3018,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

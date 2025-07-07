@@ -1,8 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CarDealerAPI",
-    "\\CarDealerAPI\\Services"
+    "\\CarDealerAPI\\Models\\Auto",
+    "\\CarDealerAPI\\Models\\Auto\\Dto",
+    "\\CarDealerAPI\\Models\\Estado",
+    "\\CarDealerAPI\\Models\\Provincia",
+    "\\CarDealerAPI\\Models\\Provincia\\Dto",
+    "\\CarDealerAPI\\Models\\Tipo_Auto",
+    "\\CarDealerAPI\\Models\\Tipo_Auto\\Dto",
+    "\\CarDealerAPI\\Properties",
+    "\\CarDealerAPI\\Utils"
   ],
   "SelectedNode": "\\CarDealerAPI.sln",
   "PreviewInSolutionExplorer": false

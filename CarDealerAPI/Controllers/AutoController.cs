@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-﻿using Car_DealerShip_Proyect.Models.Auto;
-using Car_DealerShip_Proyect.Services;
-using Car_DealerShip_Proyect.Utils;
-=======
-﻿using CarDealerAPI.Services;
+
+using CarDealerAPI.Models.Auto;
+using CarDealerAPI.Models.Auto.Dto;
+using CarDealerAPI.Services;
 using CarDealerAPI.Utils;
->>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
@@ -22,13 +19,7 @@ namespace CarDealerAPI.Controllers
         {
             _autoServices = autoServices;
         }
-
-        [HttpGet]
-        public List<Auto> GetAutos()
-        {
-            return _autoServices.GetAll();
-        }
-
+        
         [HttpDelete("{Id_Autos}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(HttpMessage))]
@@ -42,6 +33,32 @@ namespace CarDealerAPI.Controllers
             catch (HttpError ex)
             {
                 return StatusCode((int)ex.StatusCode, new HttpMessage(ex.Message));
+            }
+        }
+        
+        [HttpGet]
+        public async Task<List<AllAutoDTO>> GetAll()
+        {
+            return await _autoServices.GetAll();
+        }
+
+        [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(HttpMessage))]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(HttpMessage))]
+        public async Task<ActionResult<Auto>> GetAuto(int id)
+        {
+            try
+            {
+                return await _autoServices.GetOneById(id);
+            }
+            catch (HttpError ex)
+            {
+                return StatusCode((int)ex.StatusCode, new HttpMessage(ex.Message));
+            }
+            catch
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, new HttpMessage("Algo salio mal"));
             }
         }
     }

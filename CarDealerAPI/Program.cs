@@ -1,4 +1,3 @@
-
 using CarDealerAPI.Config;
 using CarDealerAPI.Services;
 using CarDealerAPI.Utils;
@@ -16,10 +15,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
-// Para mostrar los errores de validación de manera personalizada
 
-// Para mostrar los errores de validaciï¿½n de manera personalizada
-
+// Para mostrar los errores de validaci�n de manera personalizada
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
     options.InvalidModelStateResponseFactory = context =>
