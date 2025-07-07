@@ -1,7 +1,6 @@
-
-using Car_DealerShip_Proyect.Utils;
-using Car_DealerShip_Proyect.Config;
-using Car_DealerShip_Proyect.Services;
+using CarDealerAPI.Config;
+using CarDealerAPI.Services;
+using CarDealerAPI.Utils;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -16,10 +15,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
+
 // Para mostrar los errores de validación de manera personalizada
-
-// Para mostrar los errores de validaciï¿½n de manera personalizada
-
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
     options.InvalidModelStateResponseFactory = context =>

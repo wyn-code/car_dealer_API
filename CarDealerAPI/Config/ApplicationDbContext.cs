@@ -1,13 +1,15 @@
-﻿using Car_DealerShip_Proyect.Models.Auto;
-using Car_DealerShip_Proyect.Models.Tipo_Auto;
+﻿using CarDealerAPI.Models.Auto;
+using CarDealerAPI.Models.Tipo_Auto;
+using CarDealerAPI.Models.Estado;
 using Microsoft.EntityFrameworkCore;
 
-namespace Car_DealerShip_Proyect.Config
+namespace CarDealerAPI.Config
 {
     public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
         public DbSet<Auto> Autos { get; set; } = null!;
+        public DbSet<Estado> Estados { get; set; } = null!;
         public DbSet<TipoDeAuto> TiposDeAuto { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

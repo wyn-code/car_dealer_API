@@ -1,0 +1,40 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/car_dealer_API/v17/.wsuo
+/.vs/CarDealerAPI/CopilotIndices/17.14.794.21998/CodeChunks.db-wal
+/.vs/CarDealerAPI/CopilotIndices/17.14.794.21998/CodeChunks.db
+/.vs/CarDealerAPI/CopilotIndices/17.14.794.21998/CodeChunks.db-shm
+/.vs/CarDealerAPI/CopilotIndices/17.14.794.21998/SemanticSymbols.db
+/.vs/CarDealerAPI/CopilotIndices/17.14.794.21998/SemanticSymbols.db-shm
+/.vs/CarDealerAPI/CopilotIndices/17.14.794.21998/SemanticSymbols.db-wal
+/.vs/CarDealerAPI/FileContentIndex/52a2ad0c-4407-446b-9947-c62aa7047e52.vsidx
+/.vs/CarDealerAPI/FileContentIndex/cb04a355-e636-4b39-806b-015bec1a4e9b.vsidx
+/.vs/CarDealerAPI/FileContentIndex/d94edfde-dded-4c23-bd77-2e8f0b1361c5.vsidx
+/.vs/car_dealer_API/v17/DocumentLayout.json
+/CarDealerAPI/obj/Debug/net8.0/rpswa.dswa.cache.json
+/CarDealerAPI/obj/Debug/net8.0/staticwebassets.removed.txt
+.vs/CarDealerAPI/obj/
+
+# Ignorar toda la carpeta .vs (Visual Studio)
+.vs/
+
+# Ignorar resultados de compilación
+bin/
+obj/
+
+# Ignorar archivos temporales de usuario
+*.user
+*.suo
+*.cache
+*.log
+
+# Archivos de NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+project.nuget.cache
+*.nuget.props
+*.nuget.targets

@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using Car_DealerShip_Proyect.Models.Auto;
-using Car_DealerShip_Proyect.Models.Auto.Dto;
+using CarDealerAPI.Models.Auto;
+using CarDealerAPI.Models.Auto.Dto;
 
-namespace Car_DealerShip_Proyect.Config
+namespace CarDealerAPI.Config
 {
     public class Mapping : Profile
     {

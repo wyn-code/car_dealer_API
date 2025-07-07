@@ -1,4 +1,4 @@
-﻿namespace Car_DealerShip_Proyect.Models.Auto.Dto
+﻿namespace CarDealerAPI.Models.Auto.Dto
 {
     public class AllAutoDTO
     {
