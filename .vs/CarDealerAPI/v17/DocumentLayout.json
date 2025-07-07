@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\CarDealerAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\cardealerapi\\cardealerapi\\services\\autoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\services\\autoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\cardealerapi\\cardealerapi\\config\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\config\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\cardealerapi\\cardealerapi\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,6 +55,43 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mapping.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\CarDealerAPI\\CarDealerAPI\\Config\\Mapping.cs",
+              "RelativeDocumentMoniker": "CarDealerAPI\\Config\\Mapping.cs",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\CarDealerAPI\\CarDealerAPI\\Config\\Mapping.cs",
+              "RelativeToolTip": "CarDealerAPI\\Config\\Mapping.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T16:53:18.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutoServices.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\CarDealerAPI\\CarDealerAPI\\Services\\AutoServices.cs",
+              "RelativeDocumentMoniker": "CarDealerAPI\\Services\\AutoServices.cs",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\CarDealerAPI\\CarDealerAPI\\Services\\AutoServices.cs",
+              "RelativeToolTip": "CarDealerAPI\\Services\\AutoServices.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAAACkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T16:51:30.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AutoController.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\CarDealerAPI\\CarDealerAPI\\Controllers\\AutoController.cs",
+              "RelativeDocumentMoniker": "CarDealerAPI\\Controllers\\AutoController.cs",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\CarDealerAPI\\CarDealerAPI\\Controllers\\AutoController.cs",
+              "RelativeToolTip": "CarDealerAPI\\Controllers\\AutoController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwBcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T16:38:58.167Z"
             },
             {
               "$type": "Bookmark",

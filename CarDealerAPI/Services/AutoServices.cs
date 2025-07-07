@@ -13,9 +13,7 @@ namespace Car_DealerShip_Proyect.Services
     {
        
         private readonly ApplicationDbContext _db;
-
         private readonly IMapper _mapper;
-
         private readonly TipoAutoServices _tipoAutos;
             
         public AutoServices(IMapper mapper, ApplicationDbContext db,TipoAutoServices tipoAutos)
@@ -40,6 +38,8 @@ namespace Car_DealerShip_Proyect.Services
 
             return auto;
         }
+
+        
 
         public Auto CreateOne(CreateAutoDTO auto)
         {

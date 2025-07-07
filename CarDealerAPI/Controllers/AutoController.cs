@@ -1,13 +1,15 @@
-﻿using Car_DealerShip_Proyect.Services;
+﻿using Car_DealerShip_Proyect.Models.Auto;
+using Car_DealerShip_Proyect.Services;
 using Car_DealerShip_Proyect.Utils;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
+using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 
 
 namespace Car_DealerShip_Proyect.Controllers
 {
     [ApiController]
-    [Microsoft.AspNetCore.Mvc.Route("api/Car-DealerShip-Proyect")]
+    [Route("api/cars")]
     public class AutoController : ControllerBase
     {
         private readonly AutoServices _autoServices; // Asegúrate de que esta interfaz esté definida
@@ -15,6 +17,13 @@ namespace Car_DealerShip_Proyect.Controllers
         {
             _autoServices = autoServices;
         }
+
+        [HttpGet]
+        public List<Auto> GetAutos()
+        {
+            return _autoServices.GetAll();
+        }
+
         [HttpDelete("{Id_Autos}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(HttpMessage))]
