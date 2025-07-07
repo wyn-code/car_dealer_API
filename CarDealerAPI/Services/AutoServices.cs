@@ -41,6 +41,19 @@ namespace Car_DealerShip_Proyect.Services
             return auto;
         }
 
+        public async Task<List<AllAutoDTO>> GetAll()
+        {
+            var autosDb = await _db.Autos.Include(a => a.Disponible).ToListAsync();
+            var autos = _mapper.Map<List<AllAutoDTO>>(autosDb);
+            return autos;
+        }
+
+        public async Task<Auto> GetOneById(int id)
+        {
+            return await GetOneByIdOrException(id);
+        }
+
+        /*
         public Auto CreateOne(CreateAutoDTO auto)
         {
             var a = _mapper.Map<Auto>(auto);
@@ -49,7 +62,7 @@ namespace Car_DealerShip_Proyect.Services
             _db.SaveChanges();
             return a;
         }
-
+        
         public async Task DeleteOneById(int id)
         {
             var auto = await GetOneByIdOrException(id);
@@ -60,7 +73,7 @@ namespace Car_DealerShip_Proyect.Services
                 throw new HttpError($"No se pudo eliminar el auto con ID = {id}", HttpStatusCode.InternalServerError);
             }
         }
-
+        
         public async Task<Auto> UpdateAuto(int id, UpdateAutoDTO autoDTO)
         {
             var autoToUpdate = await GetOneByIdOrException(id);
@@ -80,7 +93,7 @@ namespace Car_DealerShip_Proyect.Services
 
         }
 
-
+        */
 
     }
 }
