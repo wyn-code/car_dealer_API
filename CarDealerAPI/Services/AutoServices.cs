@@ -38,6 +38,24 @@ namespace CarDealerAPI.Services
             return auto;
         }
 
+
+        public async Task<List<AllAutoDTO>> GetAll()
+        {
+            var autosDb = await _db.Autos.Include(a => a.Estado).ToListAsync();
+            var autos = _mapper.Map<List<AllAutoDTO>>(autosDb);
+            return autos;
+        }
+
+        public async Task<Auto> GetOneById(int id)
+        {
+            return await GetOneByIdOrException(id);
+        }
+
+        
+        public Auto CreateOne(CreateAutoDTO auto)
+        {
+            var a = _mapper.Map<Auto>(auto);
+        }
         public async Task<Auto> CreateOne(CreateAutoDTO auto)
         {
             var a = _mapper.Map<Auto>(auto);
@@ -48,7 +66,7 @@ namespace CarDealerAPI.Services
             await _db.SaveChangesAsync();
             return a;
         }
-
+        
         public async Task DeleteOneById(int id)
         {
             var auto = await GetOneByIdOrException(id);
@@ -59,7 +77,7 @@ namespace CarDealerAPI.Services
                 throw new HttpError($"No se pudo eliminar el auto con ID = {id}", HttpStatusCode.InternalServerError);
             }
         }
-
+        
         public async Task<Auto> UpdateAuto(int id, UpdateAutoDTO autoDTO)
         {
             var autoToUpdate = await GetOneByIdOrException(id);

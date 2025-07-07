@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CarDealerAPI",
+    "\\CarDealerAPI\\Controllers",
+    "\\CarDealerAPI\\Models\\Provincia",
+    "\\CarDealerAPI\\Models\\Provincia\\Dto",
+    "\\CarDealerAPI\\Models\\Tipo_Auto",
+    "\\CarDealerAPI\\Models\\Tipo_Auto\\Dto",
+    "\\CarDealerAPI\\Properties",
+    "\\CarDealerAPI\\Services",
+    "\\CarDealerAPI\\Utils"
+  ],
+  "SelectedNode": "\\CarDealerAPI\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
