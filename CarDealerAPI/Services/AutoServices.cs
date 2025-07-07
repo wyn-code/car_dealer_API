@@ -12,11 +12,13 @@ namespace CarDealerAPI.Services
     {
        
         private readonly ApplicationDbContext _db;
-
         private readonly IMapper _mapper;
+<<<<<<< HEAD
+=======
 
         private readonly EstadoServices _estadoServices;
 
+>>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
         private readonly TipoAutoServices _tipoAutos;
             
         public AutoServices(IMapper mapper, ApplicationDbContext db,TipoAutoServices tipoAutos)
@@ -42,7 +44,13 @@ namespace CarDealerAPI.Services
             return auto;
         }
 
+<<<<<<< HEAD
+        
+
+        public Auto CreateOne(CreateAutoDTO auto)
+=======
         public async Task<Auto> CreateOne(CreateAutoDTO auto)
+>>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
         {
 
             var a = _mapper.Map<Auto>(auto);
