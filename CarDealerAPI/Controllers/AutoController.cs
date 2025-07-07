@@ -1,4 +1,4 @@
-
+using CarDealerAPI.Models.Auto;
 using CarDealerAPI.Models.Auto;
 using CarDealerAPI.Models.Auto.Dto;
 using CarDealerAPI.Services;
@@ -19,7 +19,12 @@ namespace CarDealerAPI.Controllers
         {
             _autoServices = autoServices;
         }
-        
+
+        [HttpGet]
+        //public List<Auto> GetAutos()
+        //{
+        //    return _autoServices.GetAll();
+        //}
         [HttpDelete("{Id_Autos}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(HttpMessage))]
