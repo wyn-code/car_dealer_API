@@ -10,23 +10,17 @@ namespace CarDealerAPI.Services
 {
     public class AutoServices
     {
-       
         private readonly ApplicationDbContext _db;
         private readonly IMapper _mapper;
-<<<<<<< HEAD
-=======
-
         private readonly EstadoServices _estadoServices;
-
->>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
         private readonly TipoAutoServices _tipoAutos;
-            
-        public AutoServices(IMapper mapper, ApplicationDbContext db,TipoAutoServices tipoAutos)
+
+        public AutoServices(IMapper mapper, ApplicationDbContext db, TipoAutoServices tipoAutos, EstadoServices estadoServices)
         {
             _db = db;
             _mapper = mapper;
             _tipoAutos = tipoAutos;
-
+            _estadoServices = estadoServices;
         }
 
         private async Task<Auto> GetOneByIdOrException(int id)
@@ -44,15 +38,8 @@ namespace CarDealerAPI.Services
             return auto;
         }
 
-<<<<<<< HEAD
-        
-
-        public Auto CreateOne(CreateAutoDTO auto)
-=======
         public async Task<Auto> CreateOne(CreateAutoDTO auto)
->>>>>>> b7ad0cc187f051b13476628383e04692b4704dd3
         {
-
             var a = _mapper.Map<Auto>(auto);
             var estado = await _estadoServices.GetOneByName("Pendiente");
             a.Estado = estado;
@@ -79,7 +66,7 @@ namespace CarDealerAPI.Services
 
             var autoUpdate = _mapper.Map(autoDTO, autoToUpdate);
 
-            if(autoDTO.Id_Tipo_Auto != null && autoDTO.Id_Tipo_Auto.Any())
+            if (autoDTO.Id_Tipo_Auto != null && autoDTO.Id_Tipo_Auto.Any())
             {
                 var tipoAuto = await _tipoAutos.GetAllByIds(autoDTO.Id_Tipo_Auto);
                 autoUpdate.Tipo_Autos = tipoAuto;
@@ -89,10 +76,6 @@ namespace CarDealerAPI.Services
             await _db.SaveChangesAsync();
 
             return autoToUpdate;
-
         }
-
-
-
     }
 }
