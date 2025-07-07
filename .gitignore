@@ -15,4 +15,26 @@
 /.vs/car_dealer_API/v17/DocumentLayout.json
 /CarDealerAPI/obj/Debug/net8.0/rpswa.dswa.cache.json
 /CarDealerAPI/obj/Debug/net8.0/staticwebassets.removed.txt
+.vs/CarDealerAPI/obj/
+
+# Ignorar toda la carpeta .vs (Visual Studio)
 .vs/
+
+# Ignorar resultados de compilación
+bin/
+obj/
+
+# Ignorar archivos temporales de usuario
+*.user
+*.suo
+*.cache
+*.log
+
+# Archivos de NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+project.nuget.cache
+*.nuget.props
+*.nuget.targets
