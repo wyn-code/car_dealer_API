@@ -51,11 +51,6 @@ namespace CarDealerAPI.Services
             return await GetOneByIdOrException(id);
         }
 
-        
-        public Auto CreateOne(CreateAutoDTO auto)
-        {
-            var a = _mapper.Map<Auto>(auto);
-        }
         public async Task<Auto> CreateOne(CreateAutoDTO auto)
         {
             var a = _mapper.Map<Auto>(auto);
