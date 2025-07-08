@@ -15,7 +15,6 @@ namespace CarDealerAPI.Config
 
             CreateMap<Auto, AllAutoDTO>().ReverseMap();
             CreateMap<Auto, CreateAutoDTO>().ReverseMap();
-            
             CreateMap<Auto, UpdateAutoDTO>().ForAllMembers(opts => {
                 opts.Condition((src, dest, scrMember) => scrMember != null);
             });

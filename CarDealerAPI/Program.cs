@@ -1,3 +1,4 @@
+using AutoMapper;
 using CarDealerAPI.Config;
 using CarDealerAPI.Services;
 using CarDealerAPI.Utils;
@@ -42,12 +43,15 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 // Services
 builder.Services.AddScoped<AutoServices>();
 builder.Services.AddScoped<TipoAutoServices>();
-builder.Services.AddScoped<TipoAutoServices>();
 
 // Mapper
 // builder.Services.AddAutoMapper(typeof(Mapping)); no se porque no anda con esta linea
+builder.Services.AddScoped<EstadoServices>();
 builder.Services.AddAutoMapper(cfg => cfg.AddProfile<Mapping>());
 
+
+
+// Mapper
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

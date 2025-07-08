@@ -7,6 +7,6 @@
     "\\CarDealerAPI\\Services",
     "\\CarDealerAPI\\Utils"
   ],
-  "SelectedNode": "\\CarDealerAPI.sln",
+  "SelectedNode": "\\CarDealerAPI\\Utils\\HttpError.cs",
   "PreviewInSolutionExplorer": false
 }
