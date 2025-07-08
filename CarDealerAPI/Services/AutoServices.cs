@@ -52,10 +52,10 @@ namespace CarDealerAPI.Services
         }
 
         
-        public Auto CreateOne(CreateAutoDTO auto)
+        /*public Auto CreateOne(CreateAutoDTO auto)
         {
             var a = _mapper.Map<Auto>(auto);
-        }
+        }*/
         public async Task<Auto> CreateOne(CreateAutoDTO auto)
         {
             var a = _mapper.Map<Auto>(auto);
