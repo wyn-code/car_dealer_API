@@ -20,11 +20,6 @@ namespace CarDealerAPI.Controllers
             _autoServices = autoServices;
         }
 
-        [HttpGet]
-        //public List<Auto> GetAutos()
-        //{
-        //    return _autoServices.GetAll();
-        //}
         [HttpDelete("{Id_Autos}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(HttpMessage))]
@@ -64,6 +59,52 @@ namespace CarDealerAPI.Controllers
             catch
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, new HttpMessage("Algo salio mal"));
+            }
+        }
+
+
+        //agregando el create y update
+        [HttpPost]
+        [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(Auto))]
+        [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(ValidationErrorResponse))]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(HttpMessage))]
+
+        public async Task<ActionResult> Create([FromBody] CreateAutoDTO auto)
+        {
+            try
+            {
+                var createdAuto = await _autoServices.CreateOne(auto);
+                return Created("api/cars",createdAuto);
+            }
+            catch (HttpError ex)
+            {
+                return StatusCode((int)ex.StatusCode, new HttpMessage(ex.Message));
+            }
+            catch 
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, new HttpMessage($"Error al crear el auto"));
+            }
+        }
+
+        [HttpPut("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Auto))]
+        [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(HttpMessage))]
+        [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(ValidationErrorResponse))]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(HttpMessage))]
+
+        public async Task<ActionResult<Auto>> Update(int id, [FromBody] UpdateAutoDTO auto)
+        {
+            try
+            {
+                return await _autoServices.UpdateAuto(id, auto);
+            }
+            catch (HttpError ex)
+            {
+                return StatusCode((int)ex.StatusCode, new HttpMessage(ex.Message));
+            }
+            catch
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, new HttpMessage($"Algo salio mal actualizando el auto con ID = {id}"));
             }
         }
     }
