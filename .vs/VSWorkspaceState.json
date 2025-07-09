@@ -3,13 +3,10 @@
     "",
     "\\CarDealerAPI",
     "\\CarDealerAPI\\Controllers",
-    "\\CarDealerAPI\\Models",
-    "\\CarDealerAPI\\Models\\Auto",
-    "\\CarDealerAPI\\Models\\Auto\\Dto",
     "\\CarDealerAPI\\Properties",
     "\\CarDealerAPI\\Services",
     "\\CarDealerAPI\\Utils"
   ],
-  "SelectedNode": "\\CarDealerAPI\\appsettings.json",
+  "SelectedNode": "\\CarDealerAPI\\Controllers\\AutoController.cs",
   "PreviewInSolutionExplorer": false
 }
