@@ -7,6 +7,10 @@
     "\\CarDealerAPI\\Services",
     "\\CarDealerAPI\\Utils"
   ],
+<<<<<<< Updated upstream
   "SelectedNode": "\\CarDealerAPI.sln",
+=======
+  "SelectedNode": "\\CarDealerAPI\\Models\\Auto\\Dto\\CreateAutoDTO.cs",
+>>>>>>> Stashed changes
   "PreviewInSolutionExplorer": false
 }
