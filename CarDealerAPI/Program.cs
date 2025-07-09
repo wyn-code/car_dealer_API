@@ -1,4 +1,4 @@
-
+using AutoMapper;
 using CarDealerAPI.Config;
 using CarDealerAPI.Services;
 using CarDealerAPI.Utils;
@@ -15,11 +15,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
-// Para mostrar los errores de validación de manera personalizada
-
-// Para mostrar los errores de validaciï¿½n de manera personalizada
-
+// Para mostrar los errores de validaci�n de manera personalizada
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
     options.InvalidModelStateResponseFactory = context =>
@@ -40,16 +36,18 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ConcesionariaDB"));
 });
 
-
-
 // Services
 builder.Services.AddScoped<AutoServices>();
 builder.Services.AddScoped<TipoAutoServices>();
 
+
 // Mapper
 // builder.Services.AddAutoMapper(typeof(Mapping)); no se porque no anda con esta linea
+builder.Services.AddScoped<EstadoServices>();
 builder.Services.AddAutoMapper(cfg => cfg.AddProfile<Mapping>());
 
+
+// Mapper
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -58,6 +56,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors(config =>
+{
+    config.AllowAnyOrigin()
+          .AllowAnyMethod()
+          .AllowAnyHeader();
+});
 
 app.UseHttpsRedirection();
 
