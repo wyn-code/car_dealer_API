@@ -21,8 +21,9 @@ namespace CarDealerAPI.Models.Auto.Dto
         [Required(ErrorMessage = "El año del modelo es requerido.")]
         [Range(1800, 2023, ErrorMessage = "El año del modelo debe ser menor o igual al año actual.")]
         public int Año_Modelo { get; set; }
-
+        public int Id_Modelo { get; set; }
         [Required(ErrorMessage = "Seleccione un tipo de auto")]
         public int Id_Tipo_Auto { get; set; }
+        public string? Descripcion { get; set; }
     }
 }

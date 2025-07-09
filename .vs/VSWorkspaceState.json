@@ -1,16 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\CarDealerAPI",
+    "\\CarDealerAPI\\Controllers",
+    "\\CarDealerAPI\\Models",
     "\\CarDealerAPI\\Models\\Auto",
     "\\CarDealerAPI\\Models\\Auto\\Dto",
-    "\\CarDealerAPI\\Models\\Estado",
-    "\\CarDealerAPI\\Models\\Provincia",
-    "\\CarDealerAPI\\Models\\Provincia\\Dto",
-    "\\CarDealerAPI\\Models\\Tipo_Auto",
-    "\\CarDealerAPI\\Models\\Tipo_Auto\\Dto",
     "\\CarDealerAPI\\Properties",
+    "\\CarDealerAPI\\Services",
     "\\CarDealerAPI\\Utils"
   ],
-  "SelectedNode": "\\CarDealerAPI.sln",
+  "SelectedNode": "\\CarDealerAPI\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }
