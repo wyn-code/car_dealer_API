@@ -1,5 +1,8 @@
-﻿using CarDealerAPI.Config;
+﻿using AutoMapper;
+using CarDealerAPI.Config;
+using CarDealerAPI.Models.Auto.Dto;
 using CarDealerAPI.Models.Tipo_Auto;
+using CarDealerAPI.Models.Tipo_Auto.Dto;
 using CarDealerAPI.Utils;
 using Microsoft.EntityFrameworkCore;
 using System.Net;
@@ -8,18 +11,32 @@ namespace CarDealerAPI.Services
 {
     public class TipoAutoServices
     {
-        private readonly ApplicationDbContext _context;
+        private readonly ApplicationDbContext _db;
+        private readonly IMapper _mapper;
 
-        public TipoAutoServices(ApplicationDbContext context)
+        public TipoAutoServices(IMapper mapper, ApplicationDbContext db, ApplicationDbContext context)
         {
-            _context = context;
+            _db = db;
+            _mapper = mapper;
+        }
+
+        private async Task<TipoDeAuto> GetOneByIdOrException(int id)
+        {
+            var tipo_auto = await _db.TiposDeAuto.Where(h => h.Id_Tipo_Auto == id).FirstOrDefaultAsync();
+
+            if (tipo_auto == null)
+            {
+                throw new HttpError($"No se encontro el Tipo de Auto con ID = {id}", HttpStatusCode.NotFound);
+            }
+
+            return tipo_auto;
         }
 
         // Crear un nuevo tipo de auto
         public async Task<TipoDeAuto> CrearTipoAutoAsync(TipoDeAuto tipoAuto)
         {
-            _context.Add(tipoAuto);
-            await _context.SaveChangesAsync();
+            _db.Add(tipoAuto);
+            await _db.SaveChangesAsync();
             return tipoAuto;
         }
 
@@ -29,7 +46,7 @@ namespace CarDealerAPI.Services
             {
                 throw new HttpError("La lista de IDs de Autos no puede estar vacía.", HttpStatusCode.BadRequest);
             }
-            var tipoAuto = await _context.TiposDeAuto.Where(i => tipoautoId.Contains(i.Id_Tipo_Auto)).ToListAsync();
+            var tipoAuto = await _db.TiposDeAuto.Where(i => tipoautoId.Contains(i.Id_Tipo_Auto)).ToListAsync();
             return tipoAuto;
         }
 
@@ -37,7 +54,22 @@ namespace CarDealerAPI.Services
         // Obtener todos los tipos de autos
         public async Task<List<TipoDeAuto>> ObtenerTiposAutosAsync()
         {
-            return await _context.TiposDeAuto.ToListAsync();
+            return await _db.TiposDeAuto.ToListAsync();
+        }
+
+        public async Task<List<TipoDeAuto>> GetAll()
+        {
+            var tipo_autos = await _db.TiposDeAuto.ToListAsync();
+            return tipo_autos;
+        }
+        public async Task<TipoDeAuto> CreateOne(CreateTipoAutoDTO tipoAuto)
+        {
+
+            var tipo_Auto = _mapper.Map<TipoDeAuto>(tipoAuto);
+
+            await _db.TiposDeAuto.AddAsync(tipo_Auto);
+            await _db.SaveChangesAsync();
+            return tipo_Auto;
         }
     }
 }

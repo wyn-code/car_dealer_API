@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "z5dZccAIqOM=",
   "success": true,
   "projectFilePath": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.csproj",
+=======
+  "dgSpecHash": "r+Wi6F24UIw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\CarDealerAPI\\CarDealerAPI\\CarDealerAPI.csproj",
+>>>>>>> ed3a18acdee64d0d290fedd1075c9f2f8afee027
   "expectedPackageFiles": [
     "C:\\Users\\bruno\\.nuget\\packages\\automapper\\15.0.0\\automapper.15.0.0.nupkg.sha512",
     "C:\\Users\\bruno\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

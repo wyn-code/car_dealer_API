@@ -27,7 +27,7 @@ namespace CarDealerAPI.Services
         private async Task<Auto> GetOneByIdOrException(int id)
         {
             var auto = await _db.Autos
-                .Where(h => h.Id_Autos == id)
+                .Where(h => h.Id_Autos == id)          
                 .Include(h => h.Tipo_Auto)
                 .FirstOrDefaultAsync();
 
