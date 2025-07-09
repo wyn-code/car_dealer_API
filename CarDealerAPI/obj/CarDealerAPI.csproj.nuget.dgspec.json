@@ -1,39 +1,20 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< Updated upstream
-    "C:\\Users\\lavec\\dev\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.csproj": {}
+    "C:\\Users\\Usuario\\source\\repos\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lavec\\dev\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.csproj": {
+    "C:\\Users\\Usuario\\source\\repos\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lavec\\dev\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.csproj",
         "projectName": "CarDealerAPI",
-        "projectPath": "C:\\Users\\lavec\\dev\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.csproj",
-        "packagesPath": "C:\\Users\\lavec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lavec\\dev\\car_dealer_API\\CarDealerAPI\\obj\\",
-=======
-    "C:\\Users\\Usuario\\Source\\Repos\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Usuario\\Source\\Repos\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.csproj",
-        "projectName": "CarDealerAPI",
-        "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.csproj",
+        "projectPath": "C:\\Users\\Usuario\\source\\repos\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\car_dealer_API\\CarDealerAPI\\obj\\",
->>>>>>> Stashed changes
+        "outputPath": "C:\\Users\\Usuario\\source\\repos\\car_dealer_API\\CarDealerAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< Updated upstream
-          "C:\\Users\\lavec\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> Stashed changes
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -112,11 +93,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< Updated upstream
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
->>>>>>> Stashed changes
         }
       }
     }

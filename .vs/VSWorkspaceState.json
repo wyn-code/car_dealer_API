@@ -1,14 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\CarDealerAPI",
-    "\\CarDealerAPI\\Controllers",
-    "\\CarDealerAPI\\Models",
-    "\\CarDealerAPI\\Models\\Marcas",
-    "\\CarDealerAPI\\Properties",
-    "\\CarDealerAPI\\Services",
-    "\\CarDealerAPI\\Utils"
+    ""
   ],
-  "SelectedNode": "\\CarDealerAPI\\Services\\AutoServices.cs",
+  "SelectedNode": "\\CarDealerAPI.sln",
   "PreviewInSolutionExplorer": false
 }
