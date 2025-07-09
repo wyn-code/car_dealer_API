@@ -1,1 +1,11 @@
-{"Version":1,"Hash":"6Cod26/1xpiOH/8ut/ZgOpmBPwP4YYdL7PEIWeE/Zns=","Source":"CarDealerAPI","BasePath":"_content/CarDealerAPI","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "zbT73lGDeOoSB4CDTdwuafzATEOhnpvEcJg8swtsyXA=",
+  "Source": "CarDealerAPI",
+  "BasePath": "_content/CarDealerAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
