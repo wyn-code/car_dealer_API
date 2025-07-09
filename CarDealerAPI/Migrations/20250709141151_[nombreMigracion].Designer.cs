@@ -4,6 +4,7 @@ using CarDealerAPI.Config;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CarDealerAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250709141151_[nombreMigracion]")]
+    partial class nombreMigracion
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -45,6 +48,10 @@ namespace CarDealerAPI.Migrations
 
                     b.Property<int>("EstadoId")
                         .HasColumnType("int");
+
+                    b.Property<string>("Id_Local")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Id_Modelo")
                         .HasColumnType("int");
@@ -90,6 +97,7 @@ namespace CarDealerAPI.Migrations
                             Disponible = true,
                             EsCeroKM = false,
                             EstadoId = 1,
+                            Id_Local = "Sucursal001",
                             Id_Modelo = 1,
                             Id_Tipo_Auto = 1,
                             Marca = "Toyota",

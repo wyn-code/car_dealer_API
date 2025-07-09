@@ -18,7 +18,6 @@ namespace CarDealerAPI.Models.Auto
         public string Descripcion { get; set; } = null!;
         public string Motor { get; set; } = null!;
         public int Año_Modelo { get; set; }
-        public string Id_Local { get; set; } = null!;
 
         public int Id_Tipo_Auto { get; set; }
 

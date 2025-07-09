@@ -3,6 +3,7 @@ using CarDealerAPI.Models.Estado;
 using CarDealerAPI.Models.Marcas;
 using CarDealerAPI.Models.Modelos;
 using CarDealerAPI.Models.Tipo_Auto;
+using CarDealerAPI.Models.Provincia;
 using Microsoft.EntityFrameworkCore;
 using System;
 
@@ -63,7 +64,6 @@ namespace CarDealerAPI.Config
                     Descripcion = "Toyota Corolla usado, excelente estado, único dueño.",
                     Motor = "1.8L 4 cilindros",
                     Año_Modelo = 2019,
-                    Id_Local = "Sucursal001",
                     Id_Tipo_Auto = 1,
                     EstadoId = 1,
                     Id_Modelo = 1,
