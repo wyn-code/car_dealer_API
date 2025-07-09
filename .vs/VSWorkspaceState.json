@@ -3,10 +3,8 @@
     "",
     "\\CarDealerAPI",
     "\\CarDealerAPI\\Controllers",
-    "\\CarDealerAPI\\Properties",
-    "\\CarDealerAPI\\Services",
-    "\\CarDealerAPI\\Utils"
+    "\\CarDealerAPI\\Services"
   ],
-  "SelectedNode": "\\CarDealerAPI\\Controllers\\TipoAutoControllers.cs",
+  "SelectedNode": "\\CarDealerAPI\\Services\\TipoAutoServices.cs",
   "PreviewInSolutionExplorer": false
 }
