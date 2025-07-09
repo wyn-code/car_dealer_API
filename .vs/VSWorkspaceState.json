@@ -7,6 +7,6 @@
     "\\CarDealerAPI\\Services",
     "\\CarDealerAPI\\Utils"
   ],
-  "SelectedNode": "\\CarDealerAPI\\Controllers\\AutoController.cs",
+  "SelectedNode": "\\CarDealerAPI\\Controllers\\TipoAutoControllers.cs",
   "PreviewInSolutionExplorer": false
 }
