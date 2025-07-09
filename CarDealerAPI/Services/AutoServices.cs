@@ -71,6 +71,7 @@ namespace CarDealerAPI.Services
 
         public async Task DeleteOneById(int id)
         {
+            //hola
             var auto = await GetOneByIdOrException(id);
             _db.Autos.Remove(auto);
             await _db.SaveChangesAsync();

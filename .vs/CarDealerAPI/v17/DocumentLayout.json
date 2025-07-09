@@ -4,6 +4,7 @@
   "Documents": [
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\models\\auto\\dto\\createautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\models\\auto\\dto\\createautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -19,6 +20,10 @@
       "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\models\\auto\\dto\\updateautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\models\\auto\\dto\\updateautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 >>>>>>> 4ba6f3ec6d3b8b85bbb614782026de8abc622777
+=======
+      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\services\\autoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\services\\autoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 5e42930fcc8b545e01a490ca34ed57a12c1e1cac
     },
     {
       "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\config\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -64,8 +69,12 @@
       "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\config\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\services\\autoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\services\\autoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\config\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\config\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\models\\auto\\dto\\updateautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\models\\auto\\dto\\updateautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\models\\auto\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,6 +104,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
 <<<<<<< Updated upstream
           "SelectedChildIndex": 0,
 =======
@@ -116,11 +126,27 @@
               "ViewState": "AQIAACEAAAAAAAAAAADwvzIAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T18:20:45.212Z",
+=======
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mapping.cs",
+              "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Config\\Mapping.cs",
+              "RelativeDocumentMoniker": "CarDealerAPI\\Config\\Mapping.cs",
+              "ToolTip": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Config\\Mapping.cs",
+              "RelativeToolTip": "CarDealerAPI\\Config\\Mapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T19:38:41.923Z",
+>>>>>>> 5e42930fcc8b545e01a490ca34ed57a12c1e1cac
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+<<<<<<< HEAD
               "Title": "20250709175005_b.cs",
               "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Migrations\\20250709175005_b.cs",
               "RelativeDocumentMoniker": "CarDealerAPI\\Migrations\\20250709175005_b.cs",
@@ -156,12 +182,14 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T17:40:53.501Z",
 =======
+=======
+>>>>>>> 5e42930fcc8b545e01a490ca34ed57a12c1e1cac
               "Title": "UpdateAutoDTO.cs",
               "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Dto\\UpdateAutoDTO.cs",
               "RelativeDocumentMoniker": "CarDealerAPI\\Models\\Auto\\Dto\\UpdateAutoDTO.cs",
               "ToolTip": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Dto\\UpdateAutoDTO.cs",
               "RelativeToolTip": "CarDealerAPI\\Models\\Auto\\Dto\\UpdateAutoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T17:13:55.242Z",
 >>>>>>> 4ba6f3ec6d3b8b85bbb614782026de8abc622777
@@ -169,6 +197,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 7,
 <<<<<<< HEAD
               "Title": "20250709174011_a.cs",
@@ -180,6 +209,9 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T17:40:12.876Z",
 =======
+=======
+              "DocumentIndex": 8,
+>>>>>>> 5e42930fcc8b545e01a490ca34ed57a12c1e1cac
               "Title": "AutoController.cs",
               "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Controllers\\AutoController.cs",
               "RelativeDocumentMoniker": "CarDealerAPI\\Controllers\\AutoController.cs",
@@ -187,6 +219,7 @@
               "RelativeToolTip": "CarDealerAPI\\Controllers\\AutoController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAuwBkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2025-07-09T17:07:39.439Z",
 >>>>>>> 4ba6f3ec6d3b8b85bbb614782026de8abc622777
               "EditorCaption": ""
@@ -199,6 +232,13 @@
 =======
               "DocumentIndex": 4,
 >>>>>>> 4ba6f3ec6d3b8b85bbb614782026de8abc622777
+=======
+              "WhenOpened": "2025-07-09T17:07:39.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+>>>>>>> 5e42930fcc8b545e01a490ca34ed57a12c1e1cac
               "Title": "CreateAutoDTO.cs",
               "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Dto\\CreateAutoDTO.cs",
               "RelativeDocumentMoniker": "CarDealerAPI\\Models\\Auto\\Dto\\CreateAutoDTO.cs",
@@ -206,12 +246,11 @@
               "RelativeToolTip": "CarDealerAPI\\Models\\Auto\\Dto\\CreateAutoDTO.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAADwvxYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T14:57:19.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T14:57:19.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\appsettings.json",
               "RelativeDocumentMoniker": "CarDealerAPI\\appsettings.json",
@@ -219,12 +258,11 @@
               "RelativeToolTip": "CarDealerAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-09T14:43:45.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T14:43:45.823Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "EstadoServices.cs",
               "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Services\\EstadoServices.cs",
               "RelativeDocumentMoniker": "CarDealerAPI\\Services\\EstadoServices.cs",
@@ -232,11 +270,11 @@
               "RelativeToolTip": "CarDealerAPI\\Services\\EstadoServices.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T14:35:08.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T14:35:08.578Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
               "DocumentIndex": 1,
@@ -246,6 +284,9 @@
 =======
               "DocumentIndex": 3,
 >>>>>>> 4ba6f3ec6d3b8b85bbb614782026de8abc622777
+=======
+              "DocumentIndex": 4,
+>>>>>>> 5e42930fcc8b545e01a490ca34ed57a12c1e1cac
               "Title": "Auto.cs",
               "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Auto.cs",
               "RelativeDocumentMoniker": "CarDealerAPI\\Models\\Auto\\Auto.cs",
@@ -257,8 +298,7 @@
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAAtAAAAAAAAAA==",
 >>>>>>> 4ba6f3ec6d3b8b85bbb614782026de8abc622777
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T14:27:47.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T14:27:47.628Z"
             },
             {
               "$type": "Document",
@@ -268,23 +308,28 @@
               "RelativeDocumentMoniker": "CarDealerAPI\\Config\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Config\\ApplicationDbContext.cs",
               "RelativeToolTip": "CarDealerAPI\\Config\\ApplicationDbContext.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwEQAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowEIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T14:26:42.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
 <<<<<<< Updated upstream
               "DocumentIndex": 2,
 =======
               "DocumentIndex": 0,
 >>>>>>> Stashed changes
+=======
+              "DocumentIndex": 0,
+>>>>>>> 5e42930fcc8b545e01a490ca34ed57a12c1e1cac
               "Title": "AutoServices.cs",
               "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Services\\AutoServices.cs",
               "RelativeDocumentMoniker": "CarDealerAPI\\Services\\AutoServices.cs",
               "ToolTip": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Services\\AutoServices.cs",
               "RelativeToolTip": "CarDealerAPI\\Services\\AutoServices.cs",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< Updated upstream
               "ViewState": "AgIAACAAAAAAAAAAAAAswDAAAAAAAAAAAAAAAA==",
@@ -294,6 +339,9 @@
 =======
               "ViewState": "AgIAAE4AAAAAAAAAAAAuwFYAAABuAAAAAAAAAA==",
 >>>>>>> 4ba6f3ec6d3b8b85bbb614782026de8abc622777
+=======
+              "ViewState": "AgIAADsAAAAAAAAAAAAmwEQAAAASAAAAAAAAAA==",
+>>>>>>> 5e42930fcc8b545e01a490ca34ed57a12c1e1cac
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T13:59:03.518Z",
               "EditorCaption": ""
