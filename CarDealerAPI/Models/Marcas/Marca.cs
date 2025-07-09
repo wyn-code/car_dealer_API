@@ -1,6 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
+﻿using CarDealerAPI.Models.Modelos;
 using CarDealerAPI.Models.Tipo_Auto;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CarDealerAPI.Models.Marcas
 {
@@ -10,8 +11,6 @@ namespace CarDealerAPI.Models.Marcas
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id_Marca { get; set; }
         public string Nombre_Marca { get; set; } = null!;
-
-        [ForeignKey("Id_Modelo")]
-        public required List<Marca> Modelos { get; set; }
+        public ICollection<Modelo> Modelos { get; set; } = new List<Modelo>();
     }
 }

@@ -94,7 +94,8 @@ namespace CarDealerAPI.Controllers
         {
             try
             {
-                return await _autoServices.UpdateAuto(id, auto);
+                var updatedAuto = await _autoServices.UpdateAuto(id, auto); // Cambiado para que coincida con la nueva firma
+                return Ok(updatedAuto);
             }
             catch (HttpError ex)
             {
@@ -102,7 +103,7 @@ namespace CarDealerAPI.Controllers
             }
             catch
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, new HttpMessage($"Algo salio mal actualizando el auto con ID = {id}"));
+                return StatusCode(StatusCodes.Status500InternalServerError, new HttpMessage($"Algo salió mal actualizando el auto con ID = {id}"));
             }
         }
     }
