@@ -18,15 +18,15 @@ namespace CarDealerAPI.Controllers
             _autoServices = autoServices;
         }
 
-        [HttpDelete("{Id_Autos}")]
+        [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(HttpMessage))]
-        public async Task<ActionResult> Delete(int Id_Autos)
+        public async Task<ActionResult> Delete(int id)
         {
             try
             {
-                await _autoServices.DeleteOneById(Id_Autos); // Asegúrate de que este método esté implementado
-                return Ok(new HttpMessage($"Auto con ID = {Id_Autos} eliminado correctamente."));
+                await _autoServices.DeleteOneById(id); // Asegúrate de que este método esté implementado
+                return Ok(new HttpMessage($"Auto con ID = {id} eliminado correctamente."));
             }
             catch (HttpError ex)
             {

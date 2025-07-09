@@ -70,7 +70,7 @@ namespace CarDealerAPI.Services
             var auto = await GetOneByIdOrException(id);
             _db.Autos.Remove(auto);
             await _db.SaveChangesAsync();
-            if (await _db.Autos.AnyAsync(hel => auto.Id_Autos == id))
+            if (await _db.Autos.AnyAsync(h => h.Id_Autos == id))
             {
                 throw new HttpError($"No se pudo eliminar el auto con ID = {id}", HttpStatusCode.InternalServerError);
             }
