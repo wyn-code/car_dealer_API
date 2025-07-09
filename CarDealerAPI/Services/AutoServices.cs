@@ -28,7 +28,6 @@ namespace CarDealerAPI.Services
         {
             var auto = await _db.Autos
                 .Where(h => h.Id_Autos == id)
-                .Include(h => h.Tipo_Auto)
                 .FirstOrDefaultAsync();
 
             if (auto == null)
