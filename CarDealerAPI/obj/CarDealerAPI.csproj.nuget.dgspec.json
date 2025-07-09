@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\CarDealerAPI\\CarDealerAPI\\CarDealerAPI.csproj": {}
+    "C:\\Users\\lavec\\dev\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\CarDealerAPI\\CarDealerAPI\\CarDealerAPI.csproj": {
+    "C:\\Users\\lavec\\dev\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\CarDealerAPI\\CarDealerAPI\\CarDealerAPI.csproj",
+        "projectUniqueName": "C:\\Users\\lavec\\dev\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.csproj",
         "projectName": "CarDealerAPI",
-        "projectPath": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\CarDealerAPI\\CarDealerAPI\\CarDealerAPI.csproj",
-        "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\CarDealerAPI\\CarDealerAPI\\obj\\",
+        "projectPath": "C:\\Users\\lavec\\dev\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.csproj",
+        "packagesPath": "C:\\Users\\lavec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lavec\\dev\\car_dealer_API\\CarDealerAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lavec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -52,11 +56,23 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.6, )"
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.7, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -82,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

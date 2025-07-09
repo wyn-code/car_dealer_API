@@ -15,8 +15,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
-
 // Para mostrar los errores de validación de manera personalizada
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
@@ -38,17 +36,15 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ConcesionariaDB"));
 });
 
-
-
 // Services
 builder.Services.AddScoped<AutoServices>();
 builder.Services.AddScoped<TipoAutoServices>();
+
 
 // Mapper
 // builder.Services.AddAutoMapper(typeof(Mapping)); no se porque no anda con esta linea
 builder.Services.AddScoped<EstadoServices>();
 builder.Services.AddAutoMapper(cfg => cfg.AddProfile<Mapping>());
-
 
 
 // Mapper
@@ -60,6 +56,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors(config =>
+{
+    config.AllowAnyOrigin()
+          .AllowAnyMethod()
+          .AllowAnyHeader();
+});
 
 app.UseHttpsRedirection();
 
