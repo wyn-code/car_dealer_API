@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CarDealerAPI",
+    "\\CarDealerAPI\\Models",
+    "\\CarDealerAPI\\Models\\Auto",
+    "\\CarDealerAPI\\Models\\Auto\\Dto"
   ],
-  "SelectedNode": "\\CarDealerAPI.sln",
+  "SelectedNode": "\\CarDealerAPI\\Models\\Auto\\Dto\\CreateAutoDTO.cs",
   "PreviewInSolutionExplorer": false
 }
