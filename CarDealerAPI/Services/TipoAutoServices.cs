@@ -40,6 +40,7 @@ namespace CarDealerAPI.Services
             return tipoAuto;
         }
 
+        //a
         public async Task<List<TipoDeAuto>> GetAllByIds(List<int> tipoautoId)
         {
             if (tipoautoId == null || !tipoautoId.Any())
