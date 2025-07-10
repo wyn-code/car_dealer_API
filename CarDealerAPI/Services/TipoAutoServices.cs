@@ -31,6 +31,10 @@ namespace CarDealerAPI.Services
 
             return tipo_auto;
         }
+        public async Task<TipoDeAuto> GetOneById(int id)
+        {
+            return await GetOneByIdOrException(id);
+        }
 
         // Crear un nuevo tipo de auto
         public async Task<TipoDeAuto> CrearTipoAutoAsync(TipoDeAuto tipoAuto)

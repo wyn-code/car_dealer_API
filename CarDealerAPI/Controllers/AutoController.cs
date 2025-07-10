@@ -33,7 +33,7 @@ namespace CarDealerAPI.Controllers
                 return StatusCode((int)ex.StatusCode, new HttpMessage(ex.Message));
             }
         }
-        
+
         [HttpGet]
         public async Task<List<AllAutoDTO>> GetAll()
         {
@@ -71,13 +71,13 @@ namespace CarDealerAPI.Controllers
             try
             {
                 var createdAuto = await _autoServices.CreateOne(auto);
-                return Created("api/cars",createdAuto);
+                return Created("api/cars", createdAuto);
             }
             catch (HttpError ex)
             {
                 return StatusCode((int)ex.StatusCode, new HttpMessage(ex.Message));
             }
-            catch 
+            catch
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, new HttpMessage($"Error al crear el auto"));
             }
@@ -92,17 +92,22 @@ namespace CarDealerAPI.Controllers
         {
             try
             {
-                return await _autoServices.UpdateOneById(id, auto);
+                var updatedAuto = await _autoServices.UpdateAuto(id, auto);
+                return Ok(updatedAuto);
             }
             catch (HttpError ex)
             {
                 return StatusCode((int)ex.StatusCode, new HttpMessage(ex.Message));
             }
-            catch
+            catch (Exception ex) // 👈 ahora capturás el detalle real
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, new HttpMessage($"Algo salio mal actualizando el auto con ID = {id}"));
+                return StatusCode(StatusCodes.Status500InternalServerError, new
+                {
+                    message = $"Algo salió mal actualizando el auto con ID = {id}",
+                    error = ex.Message,
+                    stackTrace = ex.StackTrace
+                });
             }
         }
     }
-
 }

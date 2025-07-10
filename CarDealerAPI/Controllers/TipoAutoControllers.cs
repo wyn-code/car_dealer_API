@@ -6,6 +6,7 @@ using CarDealerAPI.Utils;
 using Microsoft.AspNetCore.Mvc;
 using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 
+
 namespace CarDealerAPI.Controllers
 {
     [ApiController]
@@ -13,6 +14,7 @@ namespace CarDealerAPI.Controllers
     public class TipoAutoControllers : Controller
     {
         private readonly TipoAutoServices _tipoAutoServ;
+
 
         public TipoAutoControllers(TipoAutoServices tipoAutoServ)
         {
