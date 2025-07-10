@@ -86,17 +86,15 @@ namespace CarDealerAPI.Services
 
             var autoUpdate = _mapper.Map(autoDTO, autoToUpdate);
 
-            if (autoDTO.Id_Tipo_Auto != null && autoDTO.Id_Tipo_Auto.Any())
-            {
-                var tipoAuto = await _tipoAutos.GetAllByIds(autoDTO.Id_Tipo_Auto);
-                autoUpdate.Tipo_Auto = tipoAuto.FirstOrDefault(); // Selecciona el primer elemento de la lista
-            }
+            var tipoAuto = await _tipoAutos.GetOneById(autoDTO.Id_Tipo_Auto);
+            autoUpdate.Tipo_Auto = tipoAuto;
 
             _db.Autos.Update(autoUpdate);
             await _db.SaveChangesAsync();
 
             return autoToUpdate;
         }
+
         //public async Task<Auto> UpdateAuto(int id, UpdateAutoDTO autoDto)
         //{
         //    var auto = await GetOneByIdOrException(id); // Obtiene el auto existente o lanza una excepción si no se encuentra
