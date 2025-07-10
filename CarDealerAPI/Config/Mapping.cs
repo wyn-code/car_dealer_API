@@ -22,8 +22,11 @@ namespace CarDealerAPI.Config
             });
 
             CreateMap<Auto, AllAutoDTO>()
-                .ForMember(dest => dest.Tipo_Auto,
-               opt => opt.MapFrom(src => src.Tipo_Auto.tipo_autos));
+            .ForMember(dest => dest.Tipo_Auto,
+                opt => opt.MapFrom(src => src.Tipo_Auto.tipo_autos))
+            .ForMember(dest => dest.Condicion,
+                opt => opt.MapFrom(src => src.CondicionName.condicionName));
+
             // teclado de membrana
         }
         

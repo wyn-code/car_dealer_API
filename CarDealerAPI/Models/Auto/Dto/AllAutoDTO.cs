@@ -6,8 +6,7 @@ namespace CarDealerAPI.Models.Auto.Dto
     {
         public int Id_Autos { get; set; }
         public string Marca { get; set; } = null!;
-        public bool Usado { get; set; }
-        public bool EsCeroKM { get; set; }
+        public string Condicion { get; set; }
         public bool Disponible { get; set; }
         public double Precio { get; set; }
         public string? Descripcion { get; set; } 
