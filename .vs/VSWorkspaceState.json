@@ -6,6 +6,6 @@
     "\\CarDealerAPI\\Migrations",
     "\\CarDealerAPI\\Services"
   ],
-  "SelectedNode": "\\CarDealerAPI\\Services\\AutoServices.cs",
+  "SelectedNode": "\\CarDealerAPI\\Services\\TipoAutoServices.cs",
   "PreviewInSolutionExplorer": false
 }
