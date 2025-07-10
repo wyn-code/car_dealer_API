@@ -64,7 +64,8 @@ namespace CarDealerAPI.Services
 
             await _db.Autos.AddAsync(a);
             await _db.SaveChangesAsync();
-            return a;            
+            return a;          
+            
         }
 
         public async Task DeleteOneById(int id)
