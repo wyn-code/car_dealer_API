@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarDealerAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d49887781a9395dfcb92804ddf01fb59f5080861")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bbb37324780bce077b3dc061a5ec04607d6c007")]
->>>>>>> ed3a18acdee64d0d290fedd1075c9f2f8afee027
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+133e2ba0b349c3628f0b2fd553d3ae531e3cecaa")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarDealerAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarDealerAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
