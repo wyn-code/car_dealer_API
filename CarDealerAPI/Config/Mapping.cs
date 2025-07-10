@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using CarDealerAPI.Models.Auto;
 using CarDealerAPI.Models.Auto.Dto;
+using CarDealerAPI.Models.Tipo_Auto;
+using CarDealerAPI.Models.Tipo_Auto.Dto;
 
 namespace CarDealerAPI.Config
 {
@@ -18,7 +20,10 @@ namespace CarDealerAPI.Config
             CreateMap<Auto, UpdateAutoDTO>().ForAllMembers(opts => {
                 opts.Condition((src, dest, scrMember) => scrMember != null);
             });
-            
+
+            CreateMap<Auto, AllAutoDTO>()
+                .ForMember(dest => dest.Tipo_Auto,
+               opt => opt.MapFrom(src => src.Tipo_Auto.tipo_autos));
             // teclado de membrana
         }
         

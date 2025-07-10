@@ -1,4 +1,6 @@
-﻿namespace CarDealerAPI.Models.Auto.Dto
+﻿using CarDealerAPI.Models.Tipo_Auto.Dto;
+
+namespace CarDealerAPI.Models.Auto.Dto
 {
     public class AllAutoDTO
     {
@@ -11,8 +13,7 @@
         public string? Descripcion { get; set; } 
         public string Motor { get; set; } = null!;
         public int Año_Modelo { get; set; }
-        public string Id_Local { get; set; } = null!;
-        public Tipo_Auto.TipoDeAuto Tipo_Auto { get; set; } = null!;
+        public string Tipo_Auto { get; set; } = null!;
 
     }
 }
