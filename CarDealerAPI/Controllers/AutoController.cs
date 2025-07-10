@@ -61,7 +61,6 @@ namespace CarDealerAPI.Controllers
         }
 
 
-        //agregando el create y update
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(Auto))]
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(ValidationErrorResponse))]
@@ -89,13 +88,11 @@ namespace CarDealerAPI.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(HttpMessage))]
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(ValidationErrorResponse))]
         [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(HttpMessage))]
-
         public async Task<ActionResult<Auto>> Update(int id, [FromBody] UpdateAutoDTO auto)
         {
             try
             {
-                var updatedAuto = await _autoServices.UpdateAuto(id, auto); // Cambiado para que coincida con la nueva firma
-                return Ok(updatedAuto);
+                return await _autoServices.UpdateOneById(id, auto);
             }
             catch (HttpError ex)
             {
@@ -103,7 +100,7 @@ namespace CarDealerAPI.Controllers
             }
             catch
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, new HttpMessage($"Algo salió mal actualizando el auto con ID = {id}"));
+                return StatusCode(StatusCodes.Status500InternalServerError, new HttpMessage($"Algo salio mal actualizando el auto con ID = {id}"));
             }
         }
     }

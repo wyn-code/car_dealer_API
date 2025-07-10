@@ -27,8 +27,8 @@ namespace CarDealerAPI.Services
         private async Task<Auto> GetOneByIdOrException(int id)
         {
             var auto = await _db.Autos
-                .Where(h => h.Id_Autos == id)          
-                .Include(h => h.Tipo_Auto)
+                .Where(a => a.Id_Autos == id)          
+                .Include(a => a.Tipo_Auto)
                 .FirstOrDefaultAsync();
 
             if (auto == null)
@@ -79,23 +79,19 @@ namespace CarDealerAPI.Services
             }
         }
 
-        public async Task<Auto> UpdateAuto(int id, UpdateAutoDTO autoDTO)
+        public async Task<Auto> UpdateOneById(int id, UpdateAutoDTO auto)
         {
             var autoToUpdate = await GetOneByIdOrException(id);
 
-            var autoUpdate = _mapper.Map(autoDTO, autoToUpdate);
+            var autoUpdate = _mapper.Map(auto, autoToUpdate);
 
-            if (autoDTO.Id_Tipo_Auto != null && autoDTO.Id_Tipo_Auto.Any())
-            {
-                var tipoAuto = await _tipoAutos.GetAllByIds(autoDTO.Id_Tipo_Auto);
-                autoUpdate.Tipo_Auto = tipoAuto.FirstOrDefault(); // Selecciona el primer elemento de la lista
-            }
-
+           
             _db.Autos.Update(autoUpdate);
             await _db.SaveChangesAsync();
 
             return autoToUpdate;
         }
+
         //public async Task<Auto> UpdateAuto(int id, UpdateAutoDTO autoDto)
         //{
         //    var auto = await GetOneByIdOrException(id); // Obtiene el auto existente o lanza una excepción si no se encuentra

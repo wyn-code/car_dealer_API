@@ -39,8 +39,6 @@ namespace CarDealerAPI.Services
             await _db.SaveChangesAsync();
             return tipoAuto;
         }
-
-        //a
         public async Task<List<TipoDeAuto>> GetAllByIds(List<int> tipoautoId)
         {
             if (tipoautoId == null || !tipoautoId.Any())
