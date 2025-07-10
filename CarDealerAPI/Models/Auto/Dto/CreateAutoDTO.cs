@@ -8,12 +8,15 @@ namespace CarDealerAPI.Models.Auto.Dto
         [StringLength(100, ErrorMessage = "La marca no puede exceder los 100 caracteres.")]
         public string Marca { get; set; } = null!;
 
-        [Required(ErrorMessage = "El precio del auto es obligatorio")]
-        [Range(0.01, double.MaxValue, ErrorMessage = "El precio del auto debe ser mayor a 0")]
-        public double Precio { get; set; }
+        [Required(ErrorMessage = "Condicion es requerida (1 = nuevo, 2= usado")]
+        public int Id_condicion { get; set; }
 
         [Required(ErrorMessage = "El estado de disponibilidad es requerido.")]
         public bool Disponible { get; set; }
+        [Required(ErrorMessage = "El precio del auto es obligatorio")]
+        [Range(0.01, double.MaxValue, ErrorMessage = "El precio del auto debe ser mayor a 0")]
+        public double Precio { get; set; }
+        public string? Descripcion { get; set; }
 
         [Required(ErrorMessage = "El motor es un campo requerido.")]
         public string Motor { get; set; } = null!;
@@ -24,6 +27,6 @@ namespace CarDealerAPI.Models.Auto.Dto
         public int Id_Modelo { get; set; }
         [Required(ErrorMessage = "Seleccione un tipo de auto")]
         public int Id_Tipo_Auto { get; set; }
-        public string? Descripcion { get; set; }
+
     }
 }

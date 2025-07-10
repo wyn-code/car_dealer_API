@@ -1,4 +1,5 @@
-﻿using CarDealerAPI.Models.Modelos;
+﻿using CarDealerAPI.Models.Es0Km;
+using CarDealerAPI.Models.Modelos;
 using CarDealerAPI.Models.Tipo_Auto;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -11,8 +12,11 @@ namespace CarDealerAPI.Models.Auto
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id_Autos { get; set; }
         public string Marca { get; set; } = null!;
-        public bool Usado { get; set; }
-        public bool EsCeroKM { get; set; }
+
+        public int Id_condicion { get; set; }
+
+        [ForeignKey("Id_condicion")]
+        public Condicion? CondicionName { get; set; }
         public bool Disponible { get; set; }
         public double Precio { get; set; }
         public string Descripcion { get; set; } = null!;

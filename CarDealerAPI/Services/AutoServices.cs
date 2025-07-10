@@ -45,6 +45,7 @@ namespace CarDealerAPI.Services
             var autosDb = await _db.Autos
                 .Include(a => a.Estado)
                 .Include(a => a.Tipo_Auto)
+                .Include(a => a.CondicionName)
                 .ToListAsync();
             var autos = _mapper.Map<List<AllAutoDTO>>(autosDb);
             return autos;
