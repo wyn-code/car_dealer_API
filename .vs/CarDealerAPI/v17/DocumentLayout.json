@@ -1,116 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\",
+  "WorkspaceRootPath": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\",
   "Documents": [
     {
-<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\controllers\\tipoautocontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\controllers\\tipoautocontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\config\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\config\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\models\\es0km\\condicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\models\\es0km\\condicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\services\\autoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\services\\autoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\services\\tipoautoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\services\\tipoautoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\config\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\config\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\models\\es0km\\condicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\models\\es0km\\condicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\services\\autoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\services\\autoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\models\\auto\\dto\\updateautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\models\\auto\\dto\\updateautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\models\\auto\\dto\\updateautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\services\\tipoautoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\services\\tipoautoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\services\\tipoautoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\models\\auto\\dto\\createautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\models\\auto\\dto\\createautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\models\\auto\\dto\\allautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\models\\auto\\dto\\allautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> 9b4778731bec2a5cca6d85f34984a7e48690d527
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\services\\estadoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\services\\estadoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\models\\modelos\\modelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\models\\modelos\\modelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\models\\tipo_auto\\tipodeauto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\models\\tipo_auto\\tipodeauto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\models\\tipo_auto\\dto\\createtipoautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\models\\tipo_auto\\dto\\createtipoautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\models\\auto\\dto\\allautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\models\\auto\\dto\\allautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\cardealerapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\cardealerapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\controllers\\tipoautocontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\controllers\\tipoautocontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\config\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\config\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\models\\auto\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\models\\auto\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\models\\auto\\dto\\createautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\models\\auto\\dto\\createautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\models\\auto\\dto\\allautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\models\\auto\\dto\\allautodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\services\\estadoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\services\\estadoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\config\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\config\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\config\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\models\\estado\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\models\\estado\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\models\\estado\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\wbsistemas\\desktop\\car_dealer_api\\cardealerapi\\models\\auto\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|c:\\users\\bruno\\onedrive\\desktop\\labo_iv_proyect\\car_dealer_api\\cardealerapi\\models\\auto\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{307AF422-5EE5-46B5-AE78-D9434515A512}|CarDealerAPI\\CarDealerAPI.csproj|solutionrelative:cardealerapi\\models\\auto\\auto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> 9b4778731bec2a5cca6d85f34984a7e48690d527
     }
   ],
   "DocumentGroupContainers": [
@@ -120,8 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -160,248 +105,62 @@
               "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Modelo.cs",
-              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Modelos\\Modelo.cs",
-              "RelativeDocumentMoniker": "CarDealerAPI\\Models\\Modelos\\Modelo.cs",
-              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Modelos\\Modelo.cs",
-              "RelativeToolTip": "CarDealerAPI\\Models\\Modelos\\Modelo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T19:27:10.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AllAutoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Dto\\AllAutoDTO.cs",
-              "RelativeDocumentMoniker": "CarDealerAPI\\Models\\Auto\\Dto\\AllAutoDTO.cs",
-              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Dto\\AllAutoDTO.cs",
-              "RelativeToolTip": "CarDealerAPI\\Models\\Auto\\Dto\\AllAutoDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T19:19:38.535Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TipoAutoControllers.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Controllers\\TipoAutoControllers.cs",
+              "RelativeDocumentMoniker": "CarDealerAPI\\Controllers\\TipoAutoControllers.cs",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Controllers\\TipoAutoControllers.cs",
+              "RelativeToolTip": "CarDealerAPI\\Controllers\\TipoAutoControllers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T21:46:14.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AutoController.cs",
               "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Controllers\\AutoController.cs",
               "RelativeDocumentMoniker": "CarDealerAPI\\Controllers\\AutoController.cs",
               "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Controllers\\AutoController.cs",
               "RelativeToolTip": "CarDealerAPI\\Controllers\\AutoController.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAuwGIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T19:13:03.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TipoAutoServices.cs",
-              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Services\\TipoAutoServices.cs",
-              "RelativeDocumentMoniker": "CarDealerAPI\\Services\\TipoAutoServices.cs",
-              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Services\\TipoAutoServices.cs",
-              "RelativeToolTip": "CarDealerAPI\\Services\\TipoAutoServices.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAA1wD8AAAAeAAAA",
-=======
-          "SelectedChildIndex": 6,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AutoController.cs",
-              "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Controllers\\AutoController.cs",
-              "RelativeDocumentMoniker": "CarDealerAPI\\Controllers\\AutoController.cs",
-              "ToolTip": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Controllers\\AutoController.cs",
-              "RelativeToolTip": "CarDealerAPI\\Controllers\\AutoController.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGsAAAAnAAAAAAAAAA==",
->>>>>>> 9b4778731bec2a5cca6d85f34984a7e48690d527
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-10T21:09:59.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
               "DocumentIndex": 6,
-              "Title": "CreateTipoAutoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Tipo_Auto\\Dto\\CreateTipoAutoDTO.cs",
-              "RelativeDocumentMoniker": "CarDealerAPI\\Models\\Tipo_Auto\\Dto\\CreateTipoAutoDTO.cs",
-              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Tipo_Auto\\Dto\\CreateTipoAutoDTO.cs",
-              "RelativeToolTip": "CarDealerAPI\\Models\\Tipo_Auto\\Dto\\CreateTipoAutoDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA3AAAA",
+              "Title": "TipoAutoServices.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Services\\TipoAutoServices.cs",
+              "RelativeDocumentMoniker": "CarDealerAPI\\Services\\TipoAutoServices.cs",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Services\\TipoAutoServices.cs",
+              "RelativeToolTip": "CarDealerAPI\\Services\\TipoAutoServices.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwCAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T21:54:40.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TipoDeAuto.cs",
-              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Tipo_Auto\\TipoDeAuto.cs",
-              "RelativeDocumentMoniker": "CarDealerAPI\\Models\\Tipo_Auto\\TipoDeAuto.cs",
-              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Tipo_Auto\\TipoDeAuto.cs",
-              "RelativeToolTip": "CarDealerAPI\\Models\\Tipo_Auto\\TipoDeAuto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T21:54:37.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T21:01:38.41Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "TipoAutoControllers.cs",
-              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Controllers\\TipoAutoControllers.cs",
-              "RelativeDocumentMoniker": "CarDealerAPI\\Controllers\\TipoAutoControllers.cs",
-              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Controllers\\TipoAutoControllers.cs",
-              "RelativeToolTip": "CarDealerAPI\\Controllers\\TipoAutoControllers.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T20:01:09.036Z",
-=======
-              "DocumentIndex": 5,
-              "Title": "TipoAutoServices.cs",
-              "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Services\\TipoAutoServices.cs",
-              "RelativeDocumentMoniker": "CarDealerAPI\\Services\\TipoAutoServices.cs",
-              "ToolTip": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Services\\TipoAutoServices.cs",
-              "RelativeToolTip": "CarDealerAPI\\Services\\TipoAutoServices.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAwCAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T21:01:38.41Z",
->>>>>>> 9b4778731bec2a5cca6d85f34984a7e48690d527
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-<<<<<<< HEAD
-              "Title": "CarDealerAPI.http",
-              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.http",
-              "RelativeDocumentMoniker": "CarDealerAPI\\CarDealerAPI.http",
-              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\CarDealerAPI.http",
-              "RelativeToolTip": "CarDealerAPI\\CarDealerAPI.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-07-09T17:49:32.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Program.cs",
-              "RelativeDocumentMoniker": "CarDealerAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Program.cs",
-              "RelativeToolTip": "CarDealerAPI\\Program.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACMAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T17:40:53.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CreateAutoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Dto\\CreateAutoDTO.cs",
-              "RelativeDocumentMoniker": "CarDealerAPI\\Models\\Auto\\Dto\\CreateAutoDTO.cs",
-              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Dto\\CreateAutoDTO.cs",
-              "RelativeToolTip": "CarDealerAPI\\Models\\Auto\\Dto\\CreateAutoDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T14:57:19.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AutoServices.cs",
-              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Services\\AutoServices.cs",
-              "RelativeDocumentMoniker": "CarDealerAPI\\Services\\AutoServices.cs",
-              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Services\\AutoServices.cs",
-              "RelativeToolTip": "CarDealerAPI\\Services\\AutoServices.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAmwF0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T13:59:03.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "CarDealerAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\appsettings.json",
-              "RelativeToolTip": "CarDealerAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-09T14:43:45.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-=======
->>>>>>> 9b4778731bec2a5cca6d85f34984a7e48690d527
               "Title": "EstadoServices.cs",
-              "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Services\\EstadoServices.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Services\\EstadoServices.cs",
               "RelativeDocumentMoniker": "CarDealerAPI\\Services\\EstadoServices.cs",
-              "ToolTip": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Services\\EstadoServices.cs",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Services\\EstadoServices.cs",
               "RelativeToolTip": "CarDealerAPI\\Services\\EstadoServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< HEAD
-              "WhenOpened": "2025-07-09T14:35:08.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T20:41:58.084Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Auto.cs",
-              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Auto.cs",
-              "RelativeDocumentMoniker": "CarDealerAPI\\Models\\Auto\\Auto.cs",
-              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Auto.cs",
-              "RelativeToolTip": "CarDealerAPI\\Models\\Auto\\Auto.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAhwBsAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T14:27:47.628Z",
-              "EditorCaption": ""
-=======
-              "WhenOpened": "2025-07-10T20:41:58.084Z"
->>>>>>> 9b4778731bec2a5cca6d85f34984a7e48690d527
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-<<<<<<< HEAD
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Config\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "CarDealerAPI\\Config\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Config\\ApplicationDbContext.cs",
-              "RelativeToolTip": "CarDealerAPI\\Config\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T14:26:42.552Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
-=======
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\appsettings.json",
               "RelativeDocumentMoniker": "CarDealerAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\appsettings.json",
               "RelativeToolTip": "CarDealerAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -409,25 +168,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UpdateAutoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Dto\\UpdateAutoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Dto\\UpdateAutoDTO.cs",
               "RelativeDocumentMoniker": "CarDealerAPI\\Models\\Auto\\Dto\\UpdateAutoDTO.cs",
-              "ToolTip": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Dto\\UpdateAutoDTO.cs",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Dto\\UpdateAutoDTO.cs",
               "RelativeToolTip": "CarDealerAPI\\Models\\Auto\\Dto\\UpdateAutoDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T20:21:43.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T20:21:43.329Z"
             },
->>>>>>> 9b4778731bec2a5cca6d85f34984a7e48690d527
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AllAutoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Dto\\AllAutoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Dto\\AllAutoDTO.cs",
               "RelativeDocumentMoniker": "CarDealerAPI\\Models\\Auto\\Dto\\AllAutoDTO.cs",
-              "ToolTip": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Dto\\AllAutoDTO.cs",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Dto\\AllAutoDTO.cs",
               "RelativeToolTip": "CarDealerAPI\\Models\\Auto\\Dto\\AllAutoDTO.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAgwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -435,37 +192,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Mapping.cs",
-              "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Config\\Mapping.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Config\\Mapping.cs",
               "RelativeDocumentMoniker": "CarDealerAPI\\Config\\Mapping.cs",
-              "ToolTip": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Config\\Mapping.cs",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Config\\Mapping.cs",
               "RelativeToolTip": "CarDealerAPI\\Config\\Mapping.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAADwvxsAAABMAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-10T19:41:10.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Condicion.cs",
-              "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Models\\Es0Km\\Condicion.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Es0Km\\Condicion.cs",
               "RelativeDocumentMoniker": "CarDealerAPI\\Models\\Es0Km\\Condicion.cs",
-              "ToolTip": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Models\\Es0Km\\Condicion.cs",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Es0Km\\Condicion.cs",
               "RelativeToolTip": "CarDealerAPI\\Models\\Es0Km\\Condicion.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAgwAsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T19:31:10.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T19:31:10.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Estado.cs",
-              "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Models\\Estado\\Estado.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Estado\\Estado.cs",
               "RelativeDocumentMoniker": "CarDealerAPI\\Models\\Estado\\Estado.cs",
-              "ToolTip": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Models\\Estado\\Estado.cs",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Estado\\Estado.cs",
               "RelativeToolTip": "CarDealerAPI\\Models\\Estado\\Estado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -473,11 +229,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Auto.cs",
-              "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Auto.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Auto.cs",
               "RelativeDocumentMoniker": "CarDealerAPI\\Models\\Auto\\Auto.cs",
-              "ToolTip": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Auto.cs",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Auto.cs",
               "RelativeToolTip": "CarDealerAPI\\Models\\Auto\\Auto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -485,41 +241,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CreateAutoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Dto\\CreateAutoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Dto\\CreateAutoDTO.cs",
               "RelativeDocumentMoniker": "CarDealerAPI\\Models\\Auto\\Dto\\CreateAutoDTO.cs",
-              "ToolTip": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Dto\\CreateAutoDTO.cs",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Models\\Auto\\Dto\\CreateAutoDTO.cs",
               "RelativeToolTip": "CarDealerAPI\\Models\\Auto\\Dto\\CreateAutoDTO.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAA3wBwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T19:20:10.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T19:20:10.061Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AutoServices.cs",
-              "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Services\\AutoServices.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Services\\AutoServices.cs",
               "RelativeDocumentMoniker": "CarDealerAPI\\Services\\AutoServices.cs",
-              "ToolTip": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Services\\AutoServices.cs",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Services\\AutoServices.cs",
               "RelativeToolTip": "CarDealerAPI\\Services\\AutoServices.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAswF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T19:04:38.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T19:04:38.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Config\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Config\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "CarDealerAPI\\Config\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\WBSistemas\\Desktop\\car_dealer_API\\CarDealerAPI\\Config\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\bruno\\OneDrive\\Desktop\\labo_iv_proyect\\car_dealer_API\\CarDealerAPI\\Config\\ApplicationDbContext.cs",
               "RelativeToolTip": "CarDealerAPI\\Config\\ApplicationDbContext.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAmwDYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T14:26:42.552Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 185,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }

@@ -2,10 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\CarDealerAPI",
+    "\\CarDealerAPI\\Config",
     "\\CarDealerAPI\\Controllers",
-    "\\CarDealerAPI\\Migrations",
     "\\CarDealerAPI\\Services"
   ],
-  "SelectedNode": "\\CarDealerAPI\\Services\\TipoAutoServices.cs",
+  "SelectedNode": "\\CarDealerAPI\\Config\\Mapping.cs",
   "PreviewInSolutionExplorer": false
 }

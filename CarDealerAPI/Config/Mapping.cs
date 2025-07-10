@@ -33,7 +33,7 @@ namespace CarDealerAPI.Config
             .ForMember(dest => dest.Condicion,
                 opt => opt.MapFrom(src => src.CondicionName.condicionName));
 
-            // teclado de membrana
+            
         }
         
     }
