@@ -14,11 +14,15 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarDealerAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d49887781a9395dfcb92804ddf01fb59f5080861")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bbb37324780bce077b3dc061a5ec04607d6c007")]
 >>>>>>> ed3a18acdee64d0d290fedd1075c9f2f8afee027
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d764cbcee446d609cbe7e6ac9ef2ed27ee65c43")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("CarDealerAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarDealerAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
