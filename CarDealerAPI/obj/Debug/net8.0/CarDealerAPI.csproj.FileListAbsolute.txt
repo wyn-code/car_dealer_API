@@ -160,13 +160,13 @@ C:\Users\WBSistemas\Desktop\car_dealer_API\CarDealerAPI\obj\Debug\net8.0\staticw
 C:\Users\WBSistemas\Desktop\car_dealer_API\CarDealerAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\WBSistemas\Desktop\car_dealer_API\CarDealerAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\WBSistemas\Desktop\car_dealer_API\CarDealerAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\WBSistemas\Desktop\car_dealer_API\CarDealerAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\WBSistemas\Desktop\car_dealer_API\CarDealerAPI\obj\Debug\net8.0\CarDeale.E903E495.Up2Date
 C:\Users\WBSistemas\Desktop\car_dealer_API\CarDealerAPI\obj\Debug\net8.0\CarDealerAPI.dll
 C:\Users\WBSistemas\Desktop\car_dealer_API\CarDealerAPI\obj\Debug\net8.0\refint\CarDealerAPI.dll
 C:\Users\WBSistemas\Desktop\car_dealer_API\CarDealerAPI\obj\Debug\net8.0\CarDealerAPI.pdb
 C:\Users\WBSistemas\Desktop\car_dealer_API\CarDealerAPI\obj\Debug\net8.0\CarDealerAPI.genruntimeconfig.cache
 C:\Users\WBSistemas\Desktop\car_dealer_API\CarDealerAPI\obj\Debug\net8.0\ref\CarDealerAPI.dll
+<<<<<<< HEAD
 C:\Users\bruno\OneDrive\Desktop\labo_iv_proyect\car_dealer_API\CarDealerAPI\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\bruno\OneDrive\Desktop\labo_iv_proyect\car_dealer_API\CarDealerAPI\bin\Debug\net8.0\appsettings.json
 C:\Users\bruno\OneDrive\Desktop\labo_iv_proyect\car_dealer_API\CarDealerAPI\bin\Debug\net8.0\CarDealerAPI.exe
@@ -337,3 +337,6 @@ C:\Users\bruno\OneDrive\Desktop\labo_iv_proyect\car_dealer_API\CarDealerAPI\obj\
 C:\Users\bruno\OneDrive\Desktop\labo_iv_proyect\car_dealer_API\CarDealerAPI\obj\Debug\net8.0\CarDealerAPI.pdb
 C:\Users\bruno\OneDrive\Desktop\labo_iv_proyect\car_dealer_API\CarDealerAPI\obj\Debug\net8.0\CarDealerAPI.genruntimeconfig.cache
 C:\Users\bruno\OneDrive\Desktop\labo_iv_proyect\car_dealer_API\CarDealerAPI\obj\Debug\net8.0\ref\CarDealerAPI.dll
+=======
+C:\Users\WBSistemas\Desktop\car_dealer_API\CarDealerAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+>>>>>>> 9b4778731bec2a5cca6d85f34984a7e48690d527

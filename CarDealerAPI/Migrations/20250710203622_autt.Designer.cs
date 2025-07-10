@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CarDealerAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250709175005_b")]
-    partial class b
+    [Migration("20250710203622_autt")]
+    partial class autt
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -43,9 +43,6 @@ namespace CarDealerAPI.Migrations
                     b.Property<bool>("Disponible")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("EsCeroKM")
-                        .HasColumnType("bit");
-
                     b.Property<int>("EstadoId")
                         .HasColumnType("int");
 
@@ -53,6 +50,9 @@ namespace CarDealerAPI.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("Id_Tipo_Auto")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Id_condicion")
                         .HasColumnType("int");
 
                     b.Property<string>("Marca")
@@ -65,9 +65,6 @@ namespace CarDealerAPI.Migrations
 
                     b.Property<double>("Precio")
                         .HasColumnType("float");
-
-                    b.Property<bool>("Usado")
-                        .HasColumnType("bit");
 
                     b.Property<DateTime>("fecha_creacion")
                         .ValueGeneratedOnAdd()
@@ -82,6 +79,8 @@ namespace CarDealerAPI.Migrations
 
                     b.HasIndex("Id_Tipo_Auto");
 
+                    b.HasIndex("Id_condicion");
+
                     b.ToTable("Autos");
 
                     b.HasData(
@@ -91,15 +90,43 @@ namespace CarDealerAPI.Migrations
                             Año_Modelo = 2019,
                             Descripcion = "Toyota Corolla usado, excelente estado, único dueño.",
                             Disponible = true,
-                            EsCeroKM = false,
                             EstadoId = 1,
                             Id_Modelo = 1,
                             Id_Tipo_Auto = 1,
+                            Id_condicion = 1,
                             Marca = "Toyota",
                             Motor = "1.8L 4 cilindros",
                             Precio = 35000.0,
-                            Usado = true,
                             fecha_creacion = new DateTime(2023, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        });
+                });
+
+            modelBuilder.Entity("CarDealerAPI.Models.Es0Km.Condicion", b =>
+                {
+                    b.Property<int>("Id_condicion")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id_condicion"));
+
+                    b.Property<string>("condicionName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id_condicion");
+
+                    b.ToTable("Condicion");
+
+                    b.HasData(
+                        new
+                        {
+                            Id_condicion = 1,
+                            condicionName = "0KM"
+                        },
+                        new
+                        {
+                            Id_condicion = 2,
+                            condicionName = "Usado"
                         });
                 });
 
@@ -257,6 +284,14 @@ namespace CarDealerAPI.Migrations
                         .HasForeignKey("Id_Tipo_Auto")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("CarDealerAPI.Models.Es0Km.Condicion", "CondicionName")
+                        .WithMany()
+                        .HasForeignKey("Id_condicion")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CondicionName");
 
                     b.Navigation("Estado");
 

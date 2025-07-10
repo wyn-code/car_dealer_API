@@ -6,6 +6,7 @@ using CarDealerAPI.Models.Tipo_Auto;
 using CarDealerAPI.Models.Provincia;
 using Microsoft.EntityFrameworkCore;
 using System;
+using CarDealerAPI.Models.Es0Km;
 
 namespace CarDealerAPI.Config
 {
@@ -18,6 +19,7 @@ namespace CarDealerAPI.Config
         public DbSet<TipoDeAuto> TiposDeAuto { get; set; } = null!;
         public DbSet<Marca> Marcas { get; set; } = null!;
         public DbSet<Modelo> Modelos { get; set; } = null!;
+        public DbSet<Condicion> Condicion { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -50,6 +52,13 @@ namespace CarDealerAPI.Config
                 new Estado { Id = 2, Nombre = "Vendido" }
             );
 
+            modelBuilder.Entity<Condicion>().HasData(
+
+                new Condicion { Id_condicion = 1, condicionName= "0KM" },
+                new Condicion { Id_condicion = 2, condicionName = "Usado" }
+
+            );
+
             modelBuilder.Entity<Auto>().Property(a => a.fecha_creacion).HasDefaultValueSql("GETUTCDATE()");
 
             modelBuilder.Entity<Auto>().HasData(
@@ -57,8 +66,7 @@ namespace CarDealerAPI.Config
                 {
                     Id_Autos = 1,
                     Marca = "Toyota",
-                    Usado = true,
-                    EsCeroKM = false,
+                    Id_condicion = 1,
                     Disponible = true,
                     Precio = 35000.00,
                     Descripcion = "Toyota Corolla usado, excelente estado, único dueño.",
