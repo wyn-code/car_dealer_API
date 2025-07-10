@@ -85,7 +85,7 @@ namespace CarDealerAPI.Services
 
             var autoUpdate = _mapper.Map(auto, autoToUpdate);
 
-            var tipoAuto = await _tipoAutos.GetOneById(autoDTO.Id_Tipo_Auto);
+            var tipoAuto = await _tipoAutos.GetOneById(auto.Id_Tipo_Auto);
             autoUpdate.Tipo_Auto = tipoAuto;
 
             _db.Autos.Update(autoUpdate);

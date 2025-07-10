@@ -15,7 +15,6 @@ namespace CarDealerAPI.Controllers
     {
         private readonly TipoAutoServices _tipoAutoServ;
 
-
         public TipoAutoControllers(TipoAutoServices tipoAutoServ)
         {
             _tipoAutoServ = tipoAutoServ;

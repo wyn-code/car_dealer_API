@@ -92,7 +92,7 @@ namespace CarDealerAPI.Controllers
         {
             try
             {
-                var updatedAuto = await _autoServices.UpdateAuto(id, auto);
+                var updatedAuto = await _autoServices.UpdateOneById(id, auto);
                 return Ok(updatedAuto);
             }
             catch (HttpError ex)
