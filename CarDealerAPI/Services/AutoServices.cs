@@ -42,7 +42,10 @@ namespace CarDealerAPI.Services
 
         public async Task<List<AllAutoDTO>> GetAll()
         {
-            var autosDb = await _db.Autos.Include(a => a.Estado).ToListAsync();
+            var autosDb = await _db.Autos
+                .Include(a => a.Estado)
+                .Include(a => a.Tipo_Auto)
+                .ToListAsync();
             var autos = _mapper.Map<List<AllAutoDTO>>(autosDb);
             return autos;
         }
