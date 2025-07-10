@@ -58,7 +58,6 @@ namespace CarDealerAPI.Services
 
         public async Task<Auto> CreateOne(CreateAutoDTO auto)
         {
-
             var a = _mapper.Map<Auto>(auto);
             var estado = await _estadoServices.GetOneByName("Disponible");
             a.Estado = estado;
@@ -66,7 +65,6 @@ namespace CarDealerAPI.Services
             await _db.Autos.AddAsync(a);
             await _db.SaveChangesAsync();
             return a;            
-          
         }
 
         public async Task DeleteOneById(int id)

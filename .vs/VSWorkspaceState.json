@@ -3,8 +3,9 @@
     "",
     "\\CarDealerAPI",
     "\\CarDealerAPI\\Controllers",
+    "\\CarDealerAPI\\Migrations",
     "\\CarDealerAPI\\Services"
   ],
-  "SelectedNode": "\\CarDealerAPI\\Migrations",
+  "SelectedNode": "\\CarDealerAPI\\Services\\AutoServices.cs",
   "PreviewInSolutionExplorer": false
 }
