@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CarDealerAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250710203622_autt")]
-    partial class autt
+    [Migration("20250711015439_remov")]
+    partial class remov
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -191,7 +191,7 @@ namespace CarDealerAPI.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id_Modelo"));
 
-                    b.Property<int>("Id_Marca")
+                    b.Property<int?>("MarcaId_Marca")
                         .HasColumnType("int");
 
                     b.Property<string>("Nombre_Modelo")
@@ -200,7 +200,7 @@ namespace CarDealerAPI.Migrations
 
                     b.HasKey("Id_Modelo");
 
-                    b.HasIndex("Id_Marca");
+                    b.HasIndex("MarcaId_Marca");
 
                     b.ToTable("Modelos");
 
@@ -208,7 +208,6 @@ namespace CarDealerAPI.Migrations
                         new
                         {
                             Id_Modelo = 1,
-                            Id_Marca = 1,
                             Nombre_Modelo = "Corolla"
                         });
                 });
@@ -302,13 +301,9 @@ namespace CarDealerAPI.Migrations
 
             modelBuilder.Entity("CarDealerAPI.Models.Modelos.Modelo", b =>
                 {
-                    b.HasOne("CarDealerAPI.Models.Marcas.Marca", "Marca")
+                    b.HasOne("CarDealerAPI.Models.Marcas.Marca", null)
                         .WithMany("Modelos")
-                        .HasForeignKey("Id_Marca")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Marca");
+                        .HasForeignKey("MarcaId_Marca");
                 });
 
             modelBuilder.Entity("CarDealerAPI.Models.Marcas.Marca", b =>

@@ -29,13 +29,8 @@ namespace CarDealerAPI.Config
                 new Marca { Id_Marca = 1, Nombre_Marca = "Toyota" }
             );
 
-            modelBuilder.Entity<Modelo>()
-                .HasOne(m => m.Marca)
-                .WithMany(ma => ma.Modelos)
-                .HasForeignKey(m => m.Id_Marca);
-
             modelBuilder.Entity<Modelo>().HasData(
-                new Modelo { Id_Modelo = 1, Nombre_Modelo = "Corolla", Id_Marca = 1 }
+                new Modelo { Id_Modelo = 1, Nombre_Modelo = "Corolla" }
             );
 
             modelBuilder.Entity<TipoDeAuto>().HasData(
