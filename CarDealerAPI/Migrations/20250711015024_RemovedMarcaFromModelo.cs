@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace CarDealerAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class autt : Migration
+    public partial class RemovedMarcaFromModelo : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -72,17 +72,16 @@ namespace CarDealerAPI.Migrations
                     Id_Modelo = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nombre_Modelo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Id_Marca = table.Column<int>(type: "int", nullable: false)
+                    MarcaId_Marca = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Modelos", x => x.Id_Modelo);
                     table.ForeignKey(
-                        name: "FK_Modelos_Marcas_Id_Marca",
-                        column: x => x.Id_Marca,
+                        name: "FK_Modelos_Marcas_MarcaId_Marca",
+                        column: x => x.MarcaId_Marca,
                         principalTable: "Marcas",
-                        principalColumn: "Id_Marca",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id_Marca");
                 });
 
             migrationBuilder.CreateTable(
@@ -156,6 +155,11 @@ namespace CarDealerAPI.Migrations
                 values: new object[] { 1, "Toyota" });
 
             migrationBuilder.InsertData(
+                table: "Modelos",
+                columns: new[] { "Id_Modelo", "MarcaId_Marca", "Nombre_Modelo" },
+                values: new object[] { 1, null, "Corolla" });
+
+            migrationBuilder.InsertData(
                 table: "TiposDeAuto",
                 columns: new[] { "Id_Tipo_Auto", "tipo_autos" },
                 values: new object[,]
@@ -167,11 +171,6 @@ namespace CarDealerAPI.Migrations
                     { 5, "Hatchback" },
                     { 6, "Convertible" }
                 });
-
-            migrationBuilder.InsertData(
-                table: "Modelos",
-                columns: new[] { "Id_Modelo", "Id_Marca", "Nombre_Modelo" },
-                values: new object[] { 1, 1, "Corolla" });
 
             migrationBuilder.InsertData(
                 table: "Autos",
@@ -199,9 +198,9 @@ namespace CarDealerAPI.Migrations
                 column: "Id_Tipo_Auto");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Modelos_Id_Marca",
+                name: "IX_Modelos_MarcaId_Marca",
                 table: "Modelos",
-                column: "Id_Marca");
+                column: "MarcaId_Marca");
 
             migrationBuilder.CreateIndex(
                 name: "IX_TiposDeAuto_tipo_autos",

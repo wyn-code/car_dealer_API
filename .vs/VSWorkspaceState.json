@@ -6,6 +6,6 @@
     "\\CarDealerAPI\\Controllers",
     "\\CarDealerAPI\\Services"
   ],
-  "SelectedNode": "\\CarDealerAPI\\appsettings.json",
+  "SelectedNode": "\\CarDealerAPI\\Controllers\\ModeloController.cs",
   "PreviewInSolutionExplorer": false
 }
