@@ -5,7 +5,7 @@
 namespace CarDealerAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class a : Migration
+    public partial class remov : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

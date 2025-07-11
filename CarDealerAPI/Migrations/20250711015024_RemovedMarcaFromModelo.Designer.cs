@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CarDealerAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250709174011_a")]
-    partial class a
+    [Migration("20250711015024_RemovedMarcaFromModelo")]
+    partial class RemovedMarcaFromModelo
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -43,9 +43,6 @@ namespace CarDealerAPI.Migrations
                     b.Property<bool>("Disponible")
                         .HasColumnType("bit");
 
-                    b.Property<bool>("EsCeroKM")
-                        .HasColumnType("bit");
-
                     b.Property<int>("EstadoId")
                         .HasColumnType("int");
 
@@ -53,6 +50,9 @@ namespace CarDealerAPI.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("Id_Tipo_Auto")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Id_condicion")
                         .HasColumnType("int");
 
                     b.Property<string>("Marca")
@@ -65,9 +65,6 @@ namespace CarDealerAPI.Migrations
 
                     b.Property<double>("Precio")
                         .HasColumnType("float");
-
-                    b.Property<bool>("Usado")
-                        .HasColumnType("bit");
 
                     b.Property<DateTime>("fecha_creacion")
                         .ValueGeneratedOnAdd()
@@ -82,6 +79,8 @@ namespace CarDealerAPI.Migrations
 
                     b.HasIndex("Id_Tipo_Auto");
 
+                    b.HasIndex("Id_condicion");
+
                     b.ToTable("Autos");
 
                     b.HasData(
@@ -91,15 +90,43 @@ namespace CarDealerAPI.Migrations
                             Año_Modelo = 2019,
                             Descripcion = "Toyota Corolla usado, excelente estado, único dueño.",
                             Disponible = true,
-                            EsCeroKM = false,
                             EstadoId = 1,
                             Id_Modelo = 1,
                             Id_Tipo_Auto = 1,
+                            Id_condicion = 1,
                             Marca = "Toyota",
                             Motor = "1.8L 4 cilindros",
                             Precio = 35000.0,
-                            Usado = true,
                             fecha_creacion = new DateTime(2023, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        });
+                });
+
+            modelBuilder.Entity("CarDealerAPI.Models.Es0Km.Condicion", b =>
+                {
+                    b.Property<int>("Id_condicion")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id_condicion"));
+
+                    b.Property<string>("condicionName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id_condicion");
+
+                    b.ToTable("Condicion");
+
+                    b.HasData(
+                        new
+                        {
+                            Id_condicion = 1,
+                            condicionName = "0KM"
+                        },
+                        new
+                        {
+                            Id_condicion = 2,
+                            condicionName = "Usado"
                         });
                 });
 
@@ -164,7 +191,7 @@ namespace CarDealerAPI.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id_Modelo"));
 
-                    b.Property<int>("Id_Marca")
+                    b.Property<int?>("MarcaId_Marca")
                         .HasColumnType("int");
 
                     b.Property<string>("Nombre_Modelo")
@@ -173,7 +200,7 @@ namespace CarDealerAPI.Migrations
 
                     b.HasKey("Id_Modelo");
 
-                    b.HasIndex("Id_Marca");
+                    b.HasIndex("MarcaId_Marca");
 
                     b.ToTable("Modelos");
 
@@ -181,7 +208,6 @@ namespace CarDealerAPI.Migrations
                         new
                         {
                             Id_Modelo = 1,
-                            Id_Marca = 1,
                             Nombre_Modelo = "Corolla"
                         });
                 });
@@ -258,6 +284,14 @@ namespace CarDealerAPI.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("CarDealerAPI.Models.Es0Km.Condicion", "CondicionName")
+                        .WithMany()
+                        .HasForeignKey("Id_condicion")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CondicionName");
+
                     b.Navigation("Estado");
 
                     b.Navigation("Modelo");
@@ -267,13 +301,9 @@ namespace CarDealerAPI.Migrations
 
             modelBuilder.Entity("CarDealerAPI.Models.Modelos.Modelo", b =>
                 {
-                    b.HasOne("CarDealerAPI.Models.Marcas.Marca", "Marca")
+                    b.HasOne("CarDealerAPI.Models.Marcas.Marca", null)
                         .WithMany("Modelos")
-                        .HasForeignKey("Id_Marca")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Marca");
+                        .HasForeignKey("MarcaId_Marca");
                 });
 
             modelBuilder.Entity("CarDealerAPI.Models.Marcas.Marca", b =>

@@ -45,6 +45,7 @@ namespace CarDealerAPI.Services
             var autosDb = await _db.Autos
                 .Include(a => a.Estado)
                 .Include(a => a.Tipo_Auto)
+                .Include(a => a.CondicionName)
                 .ToListAsync();
             var autos = _mapper.Map<List<AllAutoDTO>>(autosDb);
             return autos;
@@ -57,15 +58,14 @@ namespace CarDealerAPI.Services
 
         public async Task<Auto> CreateOne(CreateAutoDTO auto)
         {
-
             var a = _mapper.Map<Auto>(auto);
             var estado = await _estadoServices.GetOneByName("Disponible");
             a.Estado = estado;
 
             await _db.Autos.AddAsync(a);
             await _db.SaveChangesAsync();
-            return a;            
-          
+            return a;          
+            
         }
 
         public async Task DeleteOneById(int id)
@@ -85,7 +85,9 @@ namespace CarDealerAPI.Services
 
             var autoUpdate = _mapper.Map(auto, autoToUpdate);
 
-           
+            var tipoAuto = await _tipoAutos.GetOneById(auto.Id_Tipo_Auto);
+            autoUpdate.Tipo_Auto = tipoAuto;
+
             _db.Autos.Update(autoUpdate);
             await _db.SaveChangesAsync();
 

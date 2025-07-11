@@ -2,8 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\CarDealerAPI",
+    "\\CarDealerAPI\\Config",
     "\\CarDealerAPI\\Controllers",
     "\\CarDealerAPI\\Services"
   ],
+<<<<<<< HEAD
+=======
+  "SelectedNode": "\\CarDealerAPI\\Controllers\\ModeloController.cs",
+>>>>>>> 9f6a8f476193b81713273056064fb853e78ccda0
   "PreviewInSolutionExplorer": false
 }
